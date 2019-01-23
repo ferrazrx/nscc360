@@ -1,6 +1,7 @@
 import React from 'react'
 import App, { Container } from 'next/app'
-import Meta from "../components/Meta";
+import Head from 'next/head'
+import Meta from "../components/Meta"
 
 export default class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }) {
@@ -24,6 +25,7 @@ export default class MyApp extends App {
         <Head>
             <title>NSCC 360°</title>
         </Head>
+        <Meta />
         <Component {...pageProps} />
       </Container>
     )
