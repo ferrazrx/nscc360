@@ -269,19 +269,25 @@ function Navbar() {
       lineNumber: 42
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "nav-link px-3 border-right",
-    href: "#",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/map",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43
     },
     __self: this
-  }, "Map")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "nav-link px-3 border-right",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, "Map"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 49
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -289,7 +295,7 @@ function Navbar() {
     href: "#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 50
     },
     __self: this
   }, "Contact")))));
@@ -13480,13 +13486,14 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
       lineNumber: 10
     },
     __self: this
-  }, "What is NSCC 360?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+  }, "What is NSCC 360\xB0?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    className: "w-75",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
@@ -13494,7 +13501,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-7",
+    className: "col-md-7 py-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -13510,7 +13517,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
     className: "col-md-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -13519,26 +13526,118 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
     alt: "vr-headset",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 23
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+    className: "d-block mx-auto w-100 border-0 shadow",
+    height: "400",
+    src: "http://localhost:8081/index.html",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-6 d-flex justify-content-center align-items-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "NSCC 360\xB0 was created to give you a little taste of all the benefits the campus provides. It also gives you an idea of what the facilities look like. If you have a VR-headset you can use it to make a virtual tour through the campus. If you don't have one, don't worry! Use you favorite browser to navigate through the pages. We hope you have a fun and a great time at NSCC 360\xB0!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    className: "pt-5 text-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, "How is the IT Campus layout?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    className: "w-75",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    class: "w-100",
+    src: "/static/campus.svg",
+    alt: "NSCC campus map",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-8 py-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, "The Institute of Technology Campus is located in the north end of Halifax and enjoys incredible views of the Bedford Basin. The campus has undergone a major transformation with a new library, learning commons and fresh, updated street presence. Students enjoy a full-service cafeteria, an exercise room and a vibrant Student Association. The campus is easily accessible by bus and is within walking distance of caf\xE9s, bakeries, restaurants, shops and banks."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, "NSCC 360\xB0 was created to give you a little taste of all the benefits the campus provides. It also gives you an idea of what the facilities look like. If you have a VR-headset you can use it to make a virtual tour through the campus. If you don't have one, don't worry! Use you favorite browser to navigate through the pages. We hope you have a fun and a great time at NSCC 360\xB0!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 61
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 62
     },
     __self: this
   }, "NSCC 2019 \xA9 All Rights Reserved")))));

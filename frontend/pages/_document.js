@@ -1,6 +1,5 @@
 import Document, { Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
-import Meta from "../components/Meta"
 
 export default class MyDocument extends Document {
   static getInitialProps ({ renderPage }) {
@@ -13,7 +12,6 @@ export default class MyDocument extends Document {
   render () {
     return (
       <html>
-        <Meta />
         <Head>
           {this.props.styleTags}
         </Head>

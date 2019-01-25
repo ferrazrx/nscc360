@@ -40,9 +40,11 @@ export default function Navbar() {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link px-3 border-right" href="#">
-              Map
-            </a>
+            <Link href="/map">
+              <a className="nav-link px-3 border-right">
+                Map
+              </a>
+            </Link>
           </li>
           <li className="nav-item">
             <a className="nav-link px-3" href="#">

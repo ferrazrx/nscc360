@@ -1,0 +1,20 @@
+{
+    "name": "NSCC 360°",
+    "firstScene": "A_WING_1_FRONT_ENTRANCE",
+    "scenes":[{
+        "id": "A_WING_1_FRONT_ENTRANCE",
+        "background": "360_world.jpg",
+        "navigations": [
+            {"to": "A_WING_1_ATRIUM", "txt": "Go Inside!", "rotate":""}
+        ]
+    },
+    {
+        "id": "A_WING_1_ATRIUM",
+        "background": "pano.jpg",
+        "navigations": [
+            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotate":""},
+            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotate":""},
+            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotate":""}
+        ]
+    }]   
+}
