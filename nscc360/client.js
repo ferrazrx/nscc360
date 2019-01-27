@@ -19,12 +19,13 @@ function init(bundle, parent, options = {}) {
    /*-----------------------------------------------
         Get URL link after # symbol
      -----------------------------------------------*/
-        
+       
   r360.renderToLocation(
     r360.createRoot('nscc360',{}),
     r360.getDefaultLocation(),
   );
 
+  r360.compositor.setCursorVisibility('visible');
 }
 
 window.React360 = {init};
