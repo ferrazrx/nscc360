@@ -1,11 +1,23 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import { IFrame, IFrameContainer } from "./style";
+import PropTypes from "prop-types";
 
 export default class VR extends Component {
-  render() {
+  static propTypes = {
+    scene: PropTypes.string.isRequired
+  };
+
+  renderIframe = () => {
     return (
-      <div>
-        <iframe className="w-100 border-0 shadow"  height="450" src="http://localhost:8081/index.html"></iframe>
-      </div>
-    )
+      <IFrame
+        key={this.props.scene}
+        className="w-100 border-0 shadow"
+        src={`http://localhost:8081/index.html#${this.props.scene}`}
+      />
+    );
+  };
+  render() {
+    console.log(this.props);
+    return <IFrameContainer>{this.renderIframe()}</IFrameContainer>;
   }
 }

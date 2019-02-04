@@ -1,6 +1,12 @@
 import React from "react";
 import Link from "next/link";
-import { Logo } from "./style";
+import { Logo, Nav } from "./style";
+import Router from "next/router";
+import Nprogress from "nprogress";
+
+Router.onRouteChangeStart = () => Nprogress.start();
+Router.onRouteChangeComplete = () => Nprogress.done();
+Router.onRouteChangeError = () => Nprogress.done();
 
 export default function Navbar() {
   return (
@@ -41,9 +47,7 @@ export default function Navbar() {
           </li>
           <li className="nav-item">
             <Link href="/map">
-              <a className="nav-link px-3 border-right">
-                Map
-              </a>
+              <a className="nav-link px-3 border-right">Map</a>
             </Link>
           </li>
           <li className="nav-item">

@@ -66,7 +66,9 @@ var Meta = function Meta() {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "stylesheet",
-    href: "https://necolas.github.io/normalize.css/8.0.1/normalize.css",
+    href: "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css",
+    integrity: "sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=",
+    crossorigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -74,10 +76,18 @@ var Meta = function Meta() {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "stylesheet",
+    href: "https://necolas.github.io/normalize.css/8.0.1/normalize.css",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "stylesheet",
     href: "/static/css/nprogress.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 21
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -85,7 +95,7 @@ var Meta = function Meta() {
     href: "/static/css/bootstrap.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 22
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -95,14 +105,14 @@ var Meta = function Meta() {
     crossOrigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 23
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
     src: "/static/js/nprogress.js",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 29
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
@@ -111,7 +121,7 @@ var Meta = function Meta() {
     crossOrigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 30
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
@@ -120,7 +130,7 @@ var Meta = function Meta() {
     crossOrigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 35
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
@@ -129,7 +139,7 @@ var Meta = function Meta() {
     crossOrigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 40
     },
     __self: this
   }));

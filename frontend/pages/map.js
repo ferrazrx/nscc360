@@ -1,18 +1,15 @@
-import React from 'react'
-import Navbar from "../components/Navbar"
-import Tour from "../components/Tour"
+import React from "react";
+import Navbar from "../components/Navbar";
+import { Container } from "../components/Navbar/style";
+import Tour from "../components/Tour";
 
 export default function map() {
   return (
     <>
-    <div className="container-fluid bg-secondary">
-      <div className="container">
+      <Container className="container position-absolute">
         <Navbar />
-      </div>
-    </div>
-    <div className="container pt-5">
+      </Container>
       <Tour />
-    </div>
     </>
-  )
+  );
 }

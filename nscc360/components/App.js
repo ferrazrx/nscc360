@@ -45,6 +45,7 @@ export default class App extends Component {
             Render defined first scene or first item from the array
       -----------------------------------------------*/
     renderPano = ()=>{
+        console.log(this.state)
         if(this.state.tour){
             console.log(this.state)
             const { tour: { firstScene, scenes }, urlLinkId } = this.state

@@ -1,8 +1,6 @@
 import React from 'react';
 import {
   AppRegistry,
-  StyleSheet,
-  Text,
   View,
 } from 'react-360';
 import App from './components/App'

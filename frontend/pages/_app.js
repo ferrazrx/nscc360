@@ -1,33 +1,33 @@
-import React from 'react'
-import App, { Container } from 'next/app'
-import Head from 'next/head'
-import Meta from "../components/Meta"
+import React from "react";
+import App, { Container } from "next/app";
+import Head from "next/head";
+import Meta from "../components/Meta";
 
 export default class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }) {
-    let pageProps = {}
+    let pageProps = {};
 
     if (Component.getInitialProps) {
-      pageProps = await Component.getInitialProps(ctx)
+      pageProps = await Component.getInitialProps(ctx);
     }
 
     pageProps.query = ctx.query;
     pageProps.pathname = ctx.pathname;
 
-    return { pageProps }
+    return { pageProps };
   }
 
-  render () {
-    const { Component, pageProps } = this.props
+  render() {
+    const { Component, pageProps } = this.props;
 
     return (
       <Container>
         <Head>
-            <title>NSCC 360°</title>
+          <title>NSCC 360°</title>
         </Head>
         <Meta />
         <Component {...pageProps} />
       </Container>
-    )
+    );
   }
 }

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -156,34 +156,34 @@ function Banner(props) {
   }, "INSTITUTE OF", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 17
     },
     __self: this
   }), "TECHNOLOGY"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "line",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 21
     },
     __self: this
   }), "IN 360\xB0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "line",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 23
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "button",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 25
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -191,7 +191,7 @@ function Banner(props) {
     alt: "look inside",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 26
     },
     __self: this
   })))));
@@ -215,7 +215,7 @@ __webpack_require__.r(__webpack_exports__);
 var BannerContainer = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "style__BannerContainer",
   componentId: "chklh3-0"
-})([".content{color:#FFF;padding:70px 0;h1{font-family:'Oswald',sans-serif;text-align:center;font-weight:900;font-size:4em;}h2:nth-of-type(1){text-align:center;font-weight:100;font-family:'Open Sans',sans-serif;font-size:3.2em;}h2:nth-of-type(2){text-align:center;font-weight:500;font-family:'Open Sans',sans-serif;}.line{background:#FFF;width:60px;height:2px;display:inline-block;margin:10px 30px;}.button{display:block;margin:0 auto;width:150px;transition:0.4s all;}.button:hover{cursor:pointer;transform:scale(1.2,1.2)}}"]);
+})([".content{color:#fff;padding:70px 0;h1{font-family:\"Oswald\",sans-serif;text-align:center;font-weight:900;font-size:4em;}h2:nth-of-type(1){text-align:center;font-weight:100;font-family:\"Open Sans\",sans-serif;font-size:3.2em;}h2:nth-of-type(2){text-align:center;font-weight:500;font-family:\"Open Sans\",sans-serif;}.line{background:#fff;width:60px;height:2px;display:inline-block;margin:10px 30px;}.button{display:block;margin:0 auto;width:150px;transition:0.4s all;}.button:hover{cursor:pointer;transform:scale(1.2,1.2);}}"]);
 
 
 /***/ }),
@@ -235,30 +235,49 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "next/link");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style */ "./components/Navbar/style.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/router */ "next/router");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! nprogress */ "nprogress");
+/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(nprogress__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/mbp/Documents/NSCC/Winter2019/Capstone/nscc360/frontend/components/Navbar/index.js";
 
 
+
+
+
+
+next_router__WEBPACK_IMPORTED_MODULE_3___default.a.onRouteChangeStart = function () {
+  return nprogress__WEBPACK_IMPORTED_MODULE_4___default.a.start();
+};
+
+next_router__WEBPACK_IMPORTED_MODULE_3___default.a.onRouteChangeComplete = function () {
+  return nprogress__WEBPACK_IMPORTED_MODULE_4___default.a.done();
+};
+
+next_router__WEBPACK_IMPORTED_MODULE_3___default.a.onRouteChangeError = function () {
+  return nprogress__WEBPACK_IMPORTED_MODULE_4___default.a.done();
+};
 
 function Navbar() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
     className: "navbar navbar-expand-lg navbar-dark",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "navbar-brand",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_style__WEBPACK_IMPORTED_MODULE_2__["Logo"], {
@@ -266,7 +285,7 @@ function Navbar() {
     alt: "NSCC 360 logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 16
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
@@ -279,14 +298,14 @@ function Navbar() {
     "aria-label": "Toggle navigation",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "navbar-toggler-icon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 28
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -294,21 +313,21 @@ function Navbar() {
     id: "nav",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 31
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "navbar-nav ml-auto mt-2 mt-lg-0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 32
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 33
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -316,21 +335,21 @@ function Navbar() {
     href: "#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 34
     },
     __self: this
   }, "Home", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "sr-only",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 35
     },
     __self: this
   }, "(current)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -338,33 +357,11 @@ function Navbar() {
     href: "#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 39
     },
     __self: this
   }, "Campus")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "nav-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "nav-link px-3 border-right",
-    href: "#",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, "Tour")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/map",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43
@@ -372,16 +369,38 @@ function Navbar() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "nav-link px-3 border-right",
+    href: "#",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
+    },
+    __self: this
+  }, "Tour")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "nav-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/map",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "nav-link px-3 border-right",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
     },
     __self: this
   }, "Map"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 53
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -389,7 +408,7 @@ function Navbar() {
     href: "#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 54
     },
     __self: this
   }, "Contact")))));
@@ -401,12 +420,14 @@ function Navbar() {
 /*!************************************!*\
   !*** ./components/Navbar/style.js ***!
   \************************************/
-/*! exports provided: Logo */
+/*! exports provided: Logo, Nav, Container */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Logo", function() { return Logo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Nav", function() { return Nav; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Container", function() { return Container; });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
 
@@ -414,6 +435,10 @@ var Logo = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.img.withConf
   displayName: "style__Logo",
   componentId: "sc-1ihft4o-0"
 })(["width:120px;"]);
+var Container = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+  displayName: "style__Container",
+  componentId: "sc-1ihft4o-1"
+})(["position:absolute;top:0;right:50%;transform:translateX(50%);z-index:1;"]);
 
 
 /***/ }),
@@ -556,30 +581,30 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
     className: "col-md-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 25
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    class: "w-100",
+    className: "w-100",
     src: "/static/vr-headset.png",
     alt: "vr-headset",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 26
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 33
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 34
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
@@ -588,95 +613,95 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
     src: "http://localhost:8081/index.html",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 35
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-6 d-flex justify-content-center align-items-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 41
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 42
     },
     __self: this
   }, "NSCC 360\xB0 was created to give you a little taste of all the benefits the campus provides. It also gives you an idea of what the facilities look like. If you have a VR-headset you can use it to make a virtual tour through the campus. If you don't have one, don't worry! Use you favorite browser to navigate through the pages. We hope you have a fun and a great time at NSCC 360\xB0!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
     className: "pt-5 text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 52
     },
     __self: this
   }, "How is the IT Campus layout?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     className: "w-75",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 53
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 54
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 55
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    class: "w-100",
+    className: "w-100",
     src: "/static/campus.svg",
     alt: "NSCC campus map",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 56
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-8 py-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 62
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 63
     },
     __self: this
   }, "The Institute of Technology Campus is located in the north end of Halifax and enjoys incredible views of the Bedford Basin. The campus has undergone a major transformation with a new library, learning commons and fresh, updated street presence. Students enjoy a full-service cafeteria, an exercise room and a vibrant Student Association. The campus is easily accessible by bus and is within walking distance of caf\xE9s, bakeries, restaurants, shops and banks."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 73
     },
     __self: this
   }, "NSCC 360\xB0 was created to give you a little taste of all the benefits the campus provides. It also gives you an idea of what the facilities look like. If you have a VR-headset you can use it to make a virtual tour through the campus. If you don't have one, don't worry! Use you favorite browser to navigate through the pages. We hope you have a fun and a great time at NSCC 360\xB0!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 83
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 84
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 85
     },
     __self: this
   }, "NSCC 2019 \xA9 All Rights Reserved")))));
@@ -684,7 +709,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -704,6 +729,28 @@ module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
 /***/ (function(module, exports) {
 
 module.exports = require("next/link");
+
+/***/ }),
+
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/router");
+
+/***/ }),
+
+/***/ "nprogress":
+/*!****************************!*\
+  !*** external "nprogress" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("nprogress");
 
 /***/ }),
 
