@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import { MapContainer } from "./style";
+import propTypesDefinition from "./propTypes";
 
 export default class D3Floor extends Component {
+  static propTypes = propTypesDefinition;
+
   render() {
     return (
       <MapContainer>

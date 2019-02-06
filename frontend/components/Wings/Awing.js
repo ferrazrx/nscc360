@@ -5,7 +5,11 @@ import A2Floor from "./Floors/A2Floor";
 
 export default class Awing extends Component {
   static propTypes = {
-    floor: PropTypes.string.isRequired,
+    scene: PropTypes.shape({
+      wing: PropTypes.string,
+      floor: PropTypes.string,
+      sceneID: PropTypes.string
+    }).isRequired,
     handleClickScene: PropTypes.func.isRequired
   };
 
@@ -17,7 +21,7 @@ export default class Awing extends Component {
     };
   }
   render() {
-    const Floor = this.FLOORS[this.props.floor];
+    const Floor = this.FLOORS[this.props.scene.floor];
     return <Floor {...this.props} />;
   }
 }

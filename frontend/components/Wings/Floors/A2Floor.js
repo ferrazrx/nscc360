@@ -1,12 +1,9 @@
 import React, { Component } from "react";
 import { MapContainer } from "./style";
-import PropTypes from "prop-types";
+import propTypesDefinition from "./propTypes";
 
 export default class A2Floor extends Component {
-  static propTypes = {
-    floor: PropTypes.string.isRequired,
-    handleClickScene: PropTypes.func.isRequired // function handleClickScene created at Map Container
-  };
+  static propTypes = propTypesDefinition;
 
   render() {
     return (
@@ -3743,6 +3740,10 @@ export default class A2Floor extends Component {
             id="A2.Services"
           />
           <circle
+            className={
+              this.props.scene.sceneID === "A_WING_2_FRONT_ENTRANCE" &&
+              "current"
+            }
             cx="284.1"
             cy="211.8"
             r="5.1"
@@ -3751,8 +3752,13 @@ export default class A2Floor extends Component {
             strokeWidth="1.01"
             strokeMiterlimit="10"
             id="A2.Outside"
+            data-scene-id="A_WING_2_FRONT_ENTRANCE" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
           <circle
+            className={
+              this.props.scene.sceneID === "A_WING_2_ATRIUM" && "current"
+            }
             cx="194.2"
             cy="149.4"
             r="5.1"

@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import { MapContainer } from "./style";
+import propTypesDefinition from "./propTypes";
 
 export default class B2Floor extends Component {
+  static propTypes = propTypesDefinition;
+
   render() {
     return (
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 409.6 223.3">

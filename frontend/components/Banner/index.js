@@ -2,6 +2,7 @@ import React from "react";
 import { BannerContainer } from "./style";
 import Video from "../Video";
 import Navbar from "../Navbar";
+import Link from "next/link";
 
 export default function Banner(props) {
   console.log(props);
@@ -23,7 +24,11 @@ export default function Banner(props) {
             <span className="line" />
           </h2>
           <div className="button">
-            <img src="/static/button.svg" alt="look inside" />
+            <Link href="/map">
+              <a>
+                <img src="/static/button.svg" alt="look inside" />
+              </a>
+            </Link>
           </div>
         </div>
       </BannerContainer>

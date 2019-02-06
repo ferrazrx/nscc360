@@ -36,7 +36,10 @@ export default class Map extends Component {
 
     return (
       <WingContainer>
-        <Wing floor={floor} handleClickScene={this.handleClickScene} />
+        <Wing
+          scene={this.props.scene}
+          handleClickScene={this.handleClickScene}
+        />
         <p className="text-center text-white">
           You are on <strong>{wing}</strong> wing - <strong>{floor}</strong>{" "}
           floor.

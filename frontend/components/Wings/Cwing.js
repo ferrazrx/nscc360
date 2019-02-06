@@ -6,7 +6,11 @@ import C3Floor from "./Floors/C3Floor";
 
 export default class Cwing extends Component {
   static propTypes = {
-    floor: PropTypes.string.isRequired,
+    scene: PropTypes.shape({
+      wing: PropTypes.string,
+      floor: PropTypes.string,
+      sceneID: PropTypes.string
+    }).isRequired,
     handleClickScene: PropTypes.func.isRequired
   };
 
@@ -19,7 +23,7 @@ export default class Cwing extends Component {
     };
   }
   render() {
-    const Floor = this.FLOORS[this.props.floor];
+    const Floor = this.FLOORS[this.props.scene.floor];
     return <Floor {...this.props} />;
   }
 }

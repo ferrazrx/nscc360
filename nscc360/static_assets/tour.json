@@ -3,36 +3,44 @@
     "firstScene": "A_WING_2_FRONT_ENTRANCE",
     "scenes":[{
         "id": "A_WING_2_FRONT_ENTRANCE",
-        "background": "360_world.jpg",
+        "background": "OUTSIDE.jpg",
+        "rotateX" : -15,
+        "rotateY": 8,
         "navigations": [
             {"to": "A_WING_1_ATRIUM", "txt": "Go Inside!", "rotate":""}
         ]
     },
     {
         "id": "A_WING_2_ATRIUM",
-        "background": "pano.png",
+        "background": "ATRIUM.jpg",
+        "rotateX" : 0,
+        "rotateY": 0,
         "navigations": [
-            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotate":""},
-            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotate":""},
-            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotate":""}
+            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
+            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
+            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]}
         ]
     },
     {
         "id": "A_WING_2_STUDENT_SERVICE",
         "background": "360panorama.jpg",
+        "rotateX" : 0,
+        "rotateY": 0,
         "navigations": [
-            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotate":""},
-            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotate":""},
-            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotate":""}
+            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
+            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
+            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]}
         ]
     },
     {
         "id": "A_WING_1_MAIN_HALL",
         "background": "360panorama.jpg",
+        "rotateX" : 0,
+        "rotateY": 0,
         "navigations": [
-            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotate":""},
-            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotate":""},
-            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotate":""}
+            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
+            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
+            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]}
         ]
     }
     ]   

@@ -45,9 +45,7 @@ export default class App extends Component {
             Render defined first scene or first item from the array
       -----------------------------------------------*/
     renderPano = ()=>{
-        console.log(this.state)
         if(this.state.tour){
-            console.log(this.state)
             const { tour: { firstScene, scenes }, urlLinkId } = this.state
             let initialScene = null
             if(urlLinkId){
@@ -58,7 +56,13 @@ export default class App extends Component {
             }else{
                 initialScene = scenes[0]
             }
-            return <Pano source={asset(initialScene.background)} />
+            console.log(initialScene)
+            const { rotateX, rotateY } = initialScene
+
+            let panoStyle = {transform:[{rotateX},{rotateY}]}
+            console.log(panoStyle)
+
+            return <Pano style={panoStyle} source={asset(initialScene.background)} />
         }
     }
 
