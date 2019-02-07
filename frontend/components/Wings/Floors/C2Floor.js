@@ -2899,6 +2899,9 @@ export default class C2Floor extends Component {
             />
           </g>
           <circle
+            className={
+              this.props.scene.sceneID === "C_WING_2_MAIN_HALL" && "current"
+            }
             cx="213.3"
             cy="94.3"
             r="5"
@@ -2906,8 +2909,13 @@ export default class C2Floor extends Component {
             stroke="#000"
             strokeMiterlimit="10"
             id="C2.Main_Hall"
+            data-scene-id="C_WING_2_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
           <circle
+            className={
+              this.props.scene.sceneID === "C_WING_2_END_HALL" && "current"
+            }
             cx="376.4"
             cy="82.7"
             r="5"
@@ -2915,6 +2923,8 @@ export default class C2Floor extends Component {
             stroke="#000"
             strokeMiterlimit="10"
             id="C2.End_Hall"
+            data-scene-id="C_WING_2_END_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
         </svg>
       </MapContainer>

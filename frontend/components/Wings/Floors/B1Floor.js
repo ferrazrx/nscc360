@@ -2016,6 +2016,9 @@ export default class B1Floor extends Component {
             />
           </g>
           <circle
+            className={
+              this.props.scene.sceneID === "B_WING_1_MAIN_HALL" && "current"
+            }
             cx="192.4"
             cy="108.4"
             r="5"
@@ -2023,6 +2026,8 @@ export default class B1Floor extends Component {
             stroke="#000"
             strokeMiterlimit="10"
             id="B1.Main_Hall"
+            data-scene-id="B_WING_1_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
         </svg>
       </MapContainer>

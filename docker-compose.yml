@@ -1,0 +1,19 @@
+version: "3"
+services:
+  ngnix:
+    build:
+      dockerfile: Dockerfile
+      context: ./nginx
+    restart: always
+    ports:
+      - "8001:80"
+  frontend:
+    build: 
+      context: ./frontend
+      dockerfile: Dockerfile
+    restart: always
+  nscc360:
+    build: 
+      context: ./nscc360
+      dockerfile: Dockerfile
+    restart: always

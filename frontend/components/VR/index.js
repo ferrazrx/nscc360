@@ -12,7 +12,7 @@ export default class VR extends Component {
       <IFrame
         key={this.props.scene}
         className="w-100 border-0 shadow"
-        src={`http://localhost:8081/index.html#${this.props.scene}`}
+        src={`/vr/index.html#${this.props.scene}`}
       />
     );
   };

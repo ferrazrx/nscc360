@@ -3323,6 +3323,9 @@ export default class B2Floor extends Component {
           />
         </g>
         <circle
+          className={
+            this.props.scene.sceneID === "B_WING_2_MAIN_HALL" && "current"
+          }
           cx="192.4"
           cy="101.1"
           r="5"
@@ -3330,6 +3333,8 @@ export default class B2Floor extends Component {
           stroke="#000"
           strokeMiterlimit="10"
           id="B2.Main_Hall"
+          data-scene-id="B_WING_2_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+          onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
         />
       </svg>
     );

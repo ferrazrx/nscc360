@@ -35,7 +35,7 @@ export default props => (
             <iframe
               className="d-block mx-auto w-100 border-0 shadow"
               height="400"
-              src="http://localhost:8081/index.html"
+              src="/vr/index.html"
             />
           </div>
           <div className="col-md-6 d-flex justify-content-center align-items-center">

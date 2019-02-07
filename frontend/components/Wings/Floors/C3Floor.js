@@ -3558,6 +3558,9 @@ export default class C3Floor extends Component {
             />
           </g>
           <circle
+            className={
+              this.props.scene.sceneID === "C_WING_3_MAIN_HALL" && "current"
+            }
             cx="198.4"
             cy="87.8"
             r="4.8"
@@ -3566,6 +3569,8 @@ export default class C3Floor extends Component {
             strokeWidth=".955"
             strokeMiterlimit="10"
             id="C3.Main_Hall"
+            data-scene-id="C_WING_3_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
         </svg>
       </MapContainer>

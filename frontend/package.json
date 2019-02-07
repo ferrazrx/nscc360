@@ -16,7 +16,7 @@
   "scripts": {
     "dev": "next -p 3004",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 3001"
   },
   "repository": {
     "type": "git",
