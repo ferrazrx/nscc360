@@ -3646,6 +3646,9 @@ export default class D3Floor extends Component {
             />
           </g>
           <circle
+            className={
+              this.props.scene.sceneID === "D_WING_3_MAIN_HALL" && "current"
+            }
             cx="200.5"
             cy="84.8"
             r="4.8"
@@ -3654,6 +3657,8 @@ export default class D3Floor extends Component {
             strokeWidth=".964"
             strokeMiterlimit="10"
             id="D3.Main_Hall"
+            data-scene-id="D_WING_3_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
         </svg>
       </MapContainer>

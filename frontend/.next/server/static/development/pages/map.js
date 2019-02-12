@@ -11065,6 +11065,7 @@ function (_Component) {
         fileName: _jsxFileName,
         lineNumber: 2007
       }), _defineProperty(_React$createElement71, "__self", this), _React$createElement71))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
+        className: this.props.scene.sceneID === "B_WING_1_MAIN_HALL" && "current",
         cx: "192.4",
         cy: "108.4",
         r: "5",
@@ -11072,6 +11073,10 @@ function (_Component) {
         stroke: "#000",
         strokeMiterlimit: "10",
         id: "B1.Main_Hall",
+        "data-scene-id": "B_WING_1_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+        ,
+        onClick: this.props.handleClickScene // function handleClickScene created at Map Container
+        ,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 2018
@@ -15412,6 +15417,7 @@ function (_Component) {
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
+        className: this.props.scene.sceneID === "B_WING_2_MAIN_HALL" && "current",
         cx: "192.4",
         cy: "101.1",
         r: "5",
@@ -15419,6 +15425,10 @@ function (_Component) {
         stroke: "#000",
         strokeMiterlimit: "10",
         id: "B2.Main_Hall",
+        "data-scene-id": "B_WING_2_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+        ,
+        onClick: this.props.handleClickScene // function handleClickScene created at Map Container
+        ,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 3325
@@ -18961,6 +18971,7 @@ function (_Component) {
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
+        className: this.props.scene.sceneID === "C_WING_1_END_HALL" && "current",
         cx: "376.3",
         cy: "104.7",
         r: "5",
@@ -18968,12 +18979,17 @@ function (_Component) {
         stroke: "#000",
         strokeMiterlimit: "10",
         id: "C1.End_Hall",
+        "data-scene-id": "C_WING_1_END_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+        ,
+        onClick: this.props.handleClickScene // function handleClickScene created at Map Container
+        ,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 2304
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
+        className: this.props.scene.sceneID === "C_WING_1_MAIN_HALL" && "current",
         cx: "213.1",
         cy: "113",
         r: "5",
@@ -18981,9 +18997,13 @@ function (_Component) {
         stroke: "#000",
         strokeMiterlimit: "10",
         id: "C1.Main_Hall",
+        "data-scene-id": "C_WING_1_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+        ,
+        onClick: this.props.handleClickScene // function handleClickScene created at Map Container
+        ,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 2313
+          lineNumber: 2318
         },
         __self: this
       })));
@@ -23608,6 +23628,7 @@ function (_Component) {
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
+        className: this.props.scene.sceneID === "C_WING_2_MAIN_HALL" && "current",
         cx: "213.3",
         cy: "94.3",
         r: "5",
@@ -23615,12 +23636,17 @@ function (_Component) {
         stroke: "#000",
         strokeMiterlimit: "10",
         id: "C2.Main_Hall",
+        "data-scene-id": "C_WING_2_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+        ,
+        onClick: this.props.handleClickScene // function handleClickScene created at Map Container
+        ,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 2901
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
+        className: this.props.scene.sceneID === "C_WING_2_END_HALL" && "current",
         cx: "376.4",
         cy: "82.7",
         r: "5",
@@ -23628,9 +23654,13 @@ function (_Component) {
         stroke: "#000",
         strokeMiterlimit: "10",
         id: "C2.End_Hall",
+        "data-scene-id": "C_WING_2_END_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+        ,
+        onClick: this.props.handleClickScene // function handleClickScene created at Map Container
+        ,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 2910
+          lineNumber: 2915
         },
         __self: this
       })));
@@ -29434,6 +29464,7 @@ function (_Component) {
         fileName: _jsxFileName,
         lineNumber: 3549
       }), _defineProperty(_React$createElement31, "__self", this), _React$createElement31))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
+        className: this.props.scene.sceneID === "C_WING_3_MAIN_HALL" && "current",
         cx: "198.4",
         cy: "87.8",
         r: "4.8",
@@ -29442,6 +29473,10 @@ function (_Component) {
         strokeWidth: ".955",
         strokeMiterlimit: "10",
         id: "C3.Main_Hall",
+        "data-scene-id": "C_WING_3_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+        ,
+        onClick: this.props.handleClickScene // function handleClickScene created at Map Container
+        ,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 3560
@@ -33029,6 +33064,7 @@ function (_Component) {
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
+        className: this.props.scene.sceneID === "D_WING_1_MACHINE_SHOP" && "current",
         cx: "59.2",
         cy: "26.6",
         r: "5",
@@ -33036,12 +33072,17 @@ function (_Component) {
         stroke: "#000",
         strokeMiterlimit: "10",
         id: "D1.Machine_Shop",
+        "data-scene-id": "D_WING_1_MACHINE_SHOP" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+        ,
+        onClick: this.props.handleClickScene // function handleClickScene created at Map Container
+        ,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 2352
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
+        className: this.props.scene.sceneID === "D_WING_1_MAIN_HALL" && "current",
         cx: "213.7",
         cy: "112",
         r: "5",
@@ -33049,12 +33090,17 @@ function (_Component) {
         stroke: "#000",
         strokeMiterlimit: "10",
         id: "D1.Main_Hall",
+        "data-scene-id": "D_WING_1_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+        ,
+        onClick: this.props.handleClickScene // function handleClickScene created at Map Container
+        ,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 2361
+          lineNumber: 2366
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
+        className: this.props.scene.sceneID === "D_WING_1_END_HALL" && "current",
         cx: "69.1",
         cy: "125.1",
         r: "5",
@@ -33062,12 +33108,17 @@ function (_Component) {
         stroke: "#000",
         strokeMiterlimit: "10",
         id: "D1.End_Hall",
+        "data-scene-id": "D_WING_1_END_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+        ,
+        onClick: this.props.handleClickScene // function handleClickScene created at Map Container
+        ,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 2370
+          lineNumber: 2380
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
+        className: this.props.scene.sceneID === "D_WING_1_BATHROOMS" && "current",
         cx: "179.3",
         cy: "139",
         r: "5",
@@ -33075,9 +33126,13 @@ function (_Component) {
         stroke: "#000",
         strokeMiterlimit: "10",
         id: "D1.Bathrooms",
+        "data-scene-id": "D_WING_1_BATHROOMS" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+        ,
+        onClick: this.props.handleClickScene // function handleClickScene created at Map Container
+        ,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 2379
+          lineNumber: 2394
         },
         __self: this
       })));
@@ -37757,6 +37812,7 @@ function (_Component) {
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
+        className: this.props.scene.sceneID === "D_WING_2_210_ROOM" && "current",
         cx: "111.9",
         cy: "111.1",
         r: "5",
@@ -37764,12 +37820,17 @@ function (_Component) {
         stroke: "#000",
         strokeMiterlimit: "10",
         id: "D2.210_Room",
+        "data-scene-id": "D_WING_2_210_ROOM" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+        ,
+        onClick: this.props.handleClickScene // function handleClickScene created at Map Container
+        ,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 2941
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
+        className: this.props.scene.sceneID === "D_WING_2_END_HALL" && "current",
         cx: "27.9",
         cy: "101.4",
         r: "5",
@@ -37777,12 +37838,17 @@ function (_Component) {
         stroke: "#000",
         strokeMiterlimit: "10",
         id: "D2.End_Hall",
+        "data-scene-id": "D_WING_2_END_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+        ,
+        onClick: this.props.handleClickScene // function handleClickScene created at Map Container
+        ,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 2950
+          lineNumber: 2955
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
+        className: this.props.scene.sceneID === "D_WING_2_MAIN_HALL" && "current",
         cx: "208.4",
         cy: "89.8",
         r: "5",
@@ -37790,9 +37856,13 @@ function (_Component) {
         stroke: "#000",
         strokeMiterlimit: "10",
         id: "D2.Main_Hall",
+        "data-scene-id": "D_WING_2_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+        ,
+        onClick: this.props.handleClickScene // function handleClickScene created at Map Container
+        ,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 2959
+          lineNumber: 2969
         },
         __self: this
       })));
@@ -43708,6 +43778,7 @@ function (_Component) {
         fileName: _jsxFileName,
         lineNumber: 3637
       }), _defineProperty(_React$createElement34, "__self", this), _React$createElement34))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
+        className: this.props.scene.sceneID === "D_WING_3_MAIN_HALL" && "current",
         cx: "200.5",
         cy: "84.8",
         r: "4.8",
@@ -43716,6 +43787,10 @@ function (_Component) {
         strokeWidth: ".964",
         strokeMiterlimit: "10",
         id: "D3.Main_Hall",
+        "data-scene-id": "D_WING_3_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+        ,
+        onClick: this.props.handleClickScene // function handleClickScene created at Map Container
+        ,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 3648
