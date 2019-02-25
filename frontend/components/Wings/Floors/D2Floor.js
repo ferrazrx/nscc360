@@ -2940,7 +2940,7 @@ export default class D2Floor extends Component {
           </g>
           <circle
             className={
-              this.props.scene.sceneID === "D_WING_2_210_ROOM" && "current"
+              this.props.scene.sceneID === "D_WING_2_210_ROOM" ? "current" : undefined
             }
             cx="111.9"
             cy="111.1"
@@ -2954,7 +2954,7 @@ export default class D2Floor extends Component {
           />
           <circle
             className={
-              this.props.scene.sceneID === "D_WING_2_END_HALL" && "current"
+              this.props.scene.sceneID === "D_WING_2_END_HALL" ? "current" : undefined
             }
             cx="27.9"
             cy="101.4"
@@ -2968,7 +2968,7 @@ export default class D2Floor extends Component {
           />
           <circle
             className={
-              this.props.scene.sceneID === "D_WING_2_MAIN_HALL" && "current"
+              this.props.scene.sceneID === "D_WING_2_MAIN_HALL" ? "current" : undefined
             }
             cx="208.4"
             cy="89.8"

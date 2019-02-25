@@ -14,9 +14,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "next -p 3004",
+    "dev": "next -p 3001",
     "build": "next build",
-    "start": "next start -p 3001"
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",

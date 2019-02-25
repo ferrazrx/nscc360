@@ -2365,7 +2365,7 @@ export default class D1Floor extends Component {
           />
           <circle
             className={
-              this.props.scene.sceneID === "D_WING_1_MAIN_HALL" && "current"
+              this.props.scene.sceneID === "D_WING_1_MAIN_HALL" ? "current" : undefined
             }
             cx="213.7"
             cy="112"
@@ -2379,7 +2379,7 @@ export default class D1Floor extends Component {
           />
           <circle
             className={
-              this.props.scene.sceneID === "D_WING_1_END_HALL" && "current"
+              this.props.scene.sceneID === "D_WING_1_END_HALL" ? "current" : undefined
             }
             cx="69.1"
             cy="125.1"
@@ -2393,7 +2393,7 @@ export default class D1Floor extends Component {
           />
           <circle
             className={
-              this.props.scene.sceneID === "D_WING_1_BATHROOMS" && "current"
+              this.props.scene.sceneID === "D_WING_1_BATHROOMS" ? "current" : undefined
             }
             cx="179.3"
             cy="139"

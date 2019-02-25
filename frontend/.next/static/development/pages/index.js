@@ -14086,7 +14086,8 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
     className: "d-block mx-auto w-100 border-0 shadow",
     height: "400",
-    src: "http://localhost:8081/index.html",
+    src: "/vr/index.html" //src="http://localhost:8081/index.html"
+    ,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
@@ -14096,41 +14097,41 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
     className: "col-md-6 d-flex justify-content-center align-items-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 43
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 44
     },
     __self: this
   }, "NSCC 360\xB0 was created to give you a little taste of all the benefits the campus provides. It also gives you an idea of what the facilities look like. If you have a VR-headset you can use it to make a virtual tour through the campus. If you don't have one, don't worry! Use you favorite browser to navigate through the pages. We hope you have a fun and a great time at NSCC 360\xB0!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
     className: "pt-5 text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 54
     },
     __self: this
   }, "How is the IT Campus layout?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     className: "w-75",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 55
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 57
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -14139,45 +14140,39 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
     alt: "NSCC campus map",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 58
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-8 py-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 64
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 65
     },
     __self: this
-  }, "The Institute of Technology Campus is located in the north end of Halifax and enjoys incredible views of the Bedford Basin. The campus has undergone a major transformation with a new library, learning commons and fresh, updated street presence. Students enjoy a full-service cafeteria, an exercise room and a vibrant Student Association. The campus is easily accessible by bus and is within walking distance of caf\xE9s, bakeries, restaurants, shops and banks."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "The IT campus is divided into 4 wings; A wing, B wings, C wing and D wing, as shown in the picture aside. You start you experience entering in the campus by the front entrance of A wing. You can find the library and Student service in this wing. You can then move forward to the other wings using the VR. Enjoy your experience!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
-    },
-    __self: this
-  }, "NSCC 360\xB0 was created to give you a little taste of all the benefits the campus provides. It also gives you an idea of what the facilities look like. If you have a VR-headset you can use it to make a virtual tour through the campus. If you don't have one, don't worry! Use you favorite browser to navigate through the pages. We hope you have a fun and a great time at NSCC 360\xB0!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 72
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 73
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 74
     },
     __self: this
   }, "NSCC 2019 \xA9 All Rights Reserved")))));

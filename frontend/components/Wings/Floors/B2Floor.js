@@ -7,6 +7,7 @@ export default class B2Floor extends Component {
 
   render() {
     return (
+      <MapContainer>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 409.6 223.3">
         <g id="map">
           <path
@@ -3324,7 +3325,7 @@ export default class B2Floor extends Component {
         </g>
         <circle
           className={
-            this.props.scene.sceneID === "B_WING_2_MAIN_HALL" && "current"
+            this.props.scene.sceneID === "B_WING_2_MAIN_HALL" ? "current": undefined
           }
           cx="192.4"
           cy="101.1"
@@ -3337,6 +3338,7 @@ export default class B2Floor extends Component {
           onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
         />
       </svg>
+      </MapContainer>
     );
   }
 }
