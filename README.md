@@ -1,5 +1,6 @@
 # NSCC 360°
 A virtual tour of the NSCC Institute of Technology Campus using virtual reality.
+<h2>Please visit us! https://nscc-360.herokuapp.com/</h2>
 
 <h2> Installation </h2>
 After you clone the repository, make sure to run the commands below:
