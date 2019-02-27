@@ -3,12 +3,13 @@ services:
   frontend:
     build: 
       context: ./frontend
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.web
     restart: always
+    ports:
+      - "8003:80"
   nscc360:
     build: 
       context: ./nscc360
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.web
     restart: always
-    ports:
-      - "8002:80"
+    
