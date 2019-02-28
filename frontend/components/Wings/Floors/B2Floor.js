@@ -3337,6 +3337,20 @@ export default class B2Floor extends Component {
           data-scene-id="B_WING_2_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
           onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
         />
+        <circle
+          className={
+            this.props.scene.sceneID === "B_WING_2_CAFETERIA" ? "current": undefined
+          }
+          cx="50"
+          cy="80"
+          r="5"
+          fill="#4068b1"
+          stroke="#000"
+          strokeMiterlimit="10"
+          id="B2.Main_Hall"
+          data-scene-id="B_WING_2_CAFETERIA" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+          onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
+        />
       </svg>
       </MapContainer>
     );

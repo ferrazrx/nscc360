@@ -2,7 +2,7 @@ import Head from "next/head";
 
 const Meta = () => (
   <Head>
-    <link rel="icon" href="/static/img/favicon.ico" />
+    <link rel="icon" href="/static/favicon.ico" />
     <meta name="description" content="NSCC Campus Virtual Reality" />
     <meta name="keywords" content="VR, NSCC, 360" />
     <meta name="author" content="NSCC" />

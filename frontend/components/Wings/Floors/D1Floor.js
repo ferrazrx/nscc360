@@ -2351,7 +2351,7 @@ export default class D1Floor extends Component {
           </g>
           <circle
             className={
-              this.props.scene.sceneID === "D_WING_1_MACHINE_SHOP" && "current"
+              this.props.scene.sceneID === "D_WING_1_ANNEXX" && "current"
             }
             cx="59.2"
             cy="26.6"
@@ -2360,7 +2360,7 @@ export default class D1Floor extends Component {
             stroke="#000"
             strokeMiterlimit="10"
             id="D1.Machine_Shop"
-            data-scene-id="D_WING_1_MACHINE_SHOP" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            data-scene-id="D_WING_1_ANNEXX" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
             onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
           <circle
