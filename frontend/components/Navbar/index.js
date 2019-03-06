@@ -31,19 +31,18 @@ export default function Navbar() {
       <div className="collapse navbar-collapse" id="nav">
         <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
           <li className="nav-item">
-            <a className="nav-link px-3 border-right" href="#">
-              Home<span className="sr-only">(current)</span>
+          <Link href="/">
+            <a className="nav-link px-3 border-right">
+              Home
             </a>
+          </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link px-3 border-right" href="#">
-              Campus
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link px-3 border-right" href="#">
+          <Link href="/map">
+            <a className="nav-link px-3 border-right">
               Tour
             </a>
+          </Link>
           </li>
           <li className="nav-item">
             <Link href="/map">

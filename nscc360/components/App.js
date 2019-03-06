@@ -11,7 +11,7 @@ export default class App extends Component {
     constructor(props){
         super(props);
         this.state = {
-            urlLinkId: "A_WING_2_FRONT_ENTRANCE", 
+            urlLinkId: "B_WING_1_MAIN_HALL", 
             tour: null,
         }
     }
