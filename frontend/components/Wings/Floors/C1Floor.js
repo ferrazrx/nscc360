@@ -2303,7 +2303,7 @@ export default class C1Floor extends Component {
           </g>
           <circle
             className={
-              this.props.scene.sceneID === "C_WING_1_END_HALL" && "current"
+              this.props.scene.sceneID === "C_WING_1_END_HALL" ? "current" : undefined
             }
             cx="376.3"
             cy="104.7"
@@ -2317,7 +2317,7 @@ export default class C1Floor extends Component {
           />
           <circle
             className={
-              this.props.scene.sceneID === "C_WING_1_MAIN_HALL" && "current"
+              this.props.scene.sceneID === "C_WING_1_MAIN_HALL" ? "current" : undefined
             }
             cx="213.1"
             cy="113"

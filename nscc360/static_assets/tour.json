@@ -2,12 +2,19 @@
     "name": "NSCC 360°",
     "firstScene": "A_WING_2_FRONT_ENTRANCE",
     "scenes":[{
-        "id": "A_WING_2_OUTSIDE",
-        "background": "A_WING_2_OUTSIDE.jpg",
+        "id": "A_WING_2_FRONT_ENTRANCE",
+        "background": "A_WING_2_FRONT_ENTRANCE.jpg",
         "rotateX" : -15,
         "rotateY": 8,
+        "descriptions": [{
+            "txt": "The Institute of Technology Campus is located in the north end of Halifax and enjoys incredible views of the Bedford Basin. The campus has undergone a major transformation with a new library, learning commons and fresh, updated street presence. Students enjoy a full-service cafeteria, an exercise room and a vibrant Student Association. The campus is easily accessible by bus and is within walking distance of cafes, bakeries, restaurants, shops and banks.",
+            "rotateX": 0, 
+            "rotateY": -30, 
+            "translate": [0, 2.2, -8]
+        }],
+        "title": {"txt": "Welcome to NSCC", "rotateX":5, "rotateY": -2, "translate": [-0.5, 1.4, -10]},
         "navigations": [
-            {"to": "A_WING_1_ATRIUM", "txt": "Go Inside!", "rotate":""}
+            {"to": "A_WING_2_ATRIUM", "txt": "Go Inside!", "rotateX":0, "rotateY": 0, "translate": [-1.9, 1.3, -8.5]}
         ]
     },
     {
@@ -15,21 +22,52 @@
         "background": "A_WING_2_ATRIUM.jpg",
         "rotateX" : 0,
         "rotateY": 0,
+        "descriptions": [{
+            "txt": "From the the entrance there are many places to visit. To the left you can find the attrium, to the right the library, and straight ahead student services. For those that need a little pick me up in the morning or just a small breakfast, the IT Campus has a small Tim Hortons just inside the entrance.",
+            "rotateX": 0, 
+            "rotateY": 10, 
+            "translate": [-3, 9.3, -8]
+        }],
+        "title": {"txt": "Atrium", "rotateX":0, "rotateY": 83, "translate": [-5, 4, 0]},
         "navigations": [
-            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]}
+            {"to": "A_WING_2_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": -90, "translate":[8,0,2]},
+            {"to": "A_WING_2_STUDENT_SERVICE", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,1.5,-10]},
+            {"to": "A_WING_2_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 180, "translate":[0,4,7]},
+            {"to": "A_WING_1_MAIN_HALL", "txt": "Go Downstairs!", "rotateX":0, "rotateY": 0, "translate":[-2.9,4.3,-16]},
+            {"to": "A_WING_2_ATRIUM_CENTER", "txt": "Go to Atrium!", "rotateX":0, "rotateY": 90, "translate":[-9,8,-3]}
         ]
     },
     {
-        "id": "A_WING_2_CROSSROADS",
-        "background": "A_WING_2_CROSSROADS.jpg",
+        "id": "A_WING_2_ATRIUM_CENTER",
+        "background": "A_WING_2_ATRIUM_CENTER.jpg",
         "rotateX" : 0,
         "rotateY": 0,
+        "descriptions": [{
+            "txt": "The Attrium is the main multipurpose space on campus. Throughout the year festivals, presentations, orientations, and even a job fair are hosted in this large well lit space. When not in use it makes a great place to study or take a breather between classes or meetings.",
+            "rotateX": 0, 
+            "rotateY": 90, 
+            "translate": [-9, 2, 2]
+        }],
         "navigations": [
-            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]}
+            {"to": "A_WING_2_ATRIUM", "txt": "Go To Hall!", "rotateX":0, "rotateY": -90, "translate":[4,2,5]}
+        ]
+    },
+    {
+        "id": "A_WING_2_STUDENT_SERVICE",
+        "background": "A_WING_2_CROSSROADS 2.jpg",
+        "rotateX" : 0,
+        "rotateY": 0,
+        "descriptions": [{
+            "txt": "Once enrolled with the college, the student services department at your campus will be a major asset to your education experience. The staff here are able to point you towards financial resources, housing options, and even help with form requests and general help. The desk on campus is open from the morning to around 4:30, just be sure to keep an ear out for high traffic days such as the second day of orientation at the beginning of the school year.",
+            "rotateX": 0, 
+            "rotateY": -140, 
+            "translate": [3, 7, 5]
+        }],
+        "navigations": [
+            {"to": "A_WING_2_ATRIUM", "txt": "Go To atrium!", "rotateX":0, "rotateY": 180, "translate":[0,0,10]},
+            {"to": "A_WING_2_LEFT", "txt": "Go to offices!", "rotateX":0, "rotateY": 120, "translate":[-8,1.4,7]},
+            {"to": "A_WING_2_RIGHT", "txt": "Go to Lobby!", "rotateX":0, "rotateY": -90, "translate":[7,3,2]},
+            {"to": "B_WING_2_MAIN_HALL", "txt": "Go to B WING!", "rotateX":0, "rotateY": 0, "translate":[-1.3,4.6,-7]}
         ]
     },
     {
@@ -37,10 +75,9 @@
         "background": "A_WING_2_LEFT.jpg",
         "rotateX" : 0,
         "rotateY": 0,
+        "descriptions": [],
         "navigations": [
-            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]}
+            {"to": "A_WING_2_STUDENT_SERVICE", "txt": "Go Back!", "rotateX":0, "rotateY": -90, "translate":[10,0.3,1]}
         ]
     },
     {
@@ -48,76 +85,103 @@
         "background": "A_WING_2_RIGHT.jpg",
         "rotateX" : 0,
         "rotateY": 0,
+        "descriptions": [],
         "navigations": [
-            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]}
+            {"to": "A_WING_2_STUDENT_SERVICE", "txt": "Go Back!", "rotateX":0, "rotateY": 90, "translate":[-10,0,1]}
         ]
     },
     {
-        "id": "A_WING_1_CROSSROADS",
-        "background": "A_WING_1_CROSSROADS.jpg",
+        "id": "A_WING_1_MAIN_HALL",
+        "background": "A_WING_1_CROSSROADS 2.jpg",
         "rotateX" : 0,
         "rotateY": 0,
+        "descriptions": [],
         "navigations": [
-            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]}
+            {"to": "A_WING_2_ATRIUM", "txt": "Go Up!", "rotateX":0, "rotateY": 90, "translate":[-9,0,1.8]},
+            {"to": "B_WING_1_MAIN_HALL", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[-1.5,2,-12]}
         ]
     },
     {
-        "id": "B_WING_1_CROSSROADS",
-        "background": "B_WING_1_CROSSROADS.jpg",
+        "id": "B_WING_1_MAIN_HALL",
+        "background": "B_WING_1_CROSSROADS 2.jpg",
         "rotateX" : 0,
         "rotateY": 0,
+        "descriptions": [],
         "navigations": [
-            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]}
+            {"to": "A_WING_1_MAIN_HALL", "txt": "Go Back!", "rotateX":0, "rotateY": 180, "translate":[-1,0,10]},
+            {"to": "C_WING_2_MAIN_HALL", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[-1,2,-10]}
         ]
     },
     {
-        "id": "B_WING_2_CROSSROADS",
-        "background": "B_WING_2_CROSSROADS.jpg",
+        "id": "B_WING_2_MAIN_HALL",
+        "background": "B_WING_2_CROSSROADS 2.jpg",
         "rotateX" : 0,
         "rotateY": 0,
+        "descriptions": [],
         "navigations": [
-            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]}
+            {"to": "B_WING_2_CAFETERIA", "txt": "Go to Cafeteria!", "rotateX":0, "rotateY": 90, "translate":[-13,0,1]},
+            {"to": "A_WING_2_STUDENT_SERVICE", "txt": "Go Back!", "rotateX":0, "rotateY": 180, "translate":[-1,2.3,13]},
+            {"to": "C_WING_3_MAIN_HALL", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[-1,3.5,-10]},
+            {"to": "B_WING_1_MAIN_HALL", "txt": "Go Down!", "rotateX":0, "rotateY": -30, "translate":[1.8,1.2,-8]}
         ]
     },
     {
-        "id": "C_WING_1_HALFWAYHALLWAY",
-        "background": "C_WING_1_HALFWAYHALLWAY.jpg",
+        "id": "B_WING_2_CAFETERIA",
+        "background": "B_WING_2_CAFETERIA.jpg",
         "rotateX" : 0,
         "rotateY": 0,
+        "descriptions": [],
         "navigations": [
-            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]}
+            {"to": "B_WING_2_MAIN_HALL", "txt": "Go Crossroads!", "rotateX":0, "rotateY": -90, "translate":[13,0,3]}
         ]
     },
     {
-        "id": "C_WING_2_ENDHALLWAY",
-        "background": "C_WING_2_ENDHALLWAY.jpg",
+        "id": "C_WING_1_MAIN_HALL",
+        "background": "D_WING_1_CROSSROADS 3.jpg",
         "rotateX" : 0,
         "rotateY": 0,
+        "descriptions": [],
         "navigations": [
-            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]}
+            {"to": "C_WING_2_MAIN_HALL", "txt": "Go up!", "rotateX":0, "rotateY": 180, "translate":[-1,0.5,13]},
+            {"to": "C_WING_2_MAIN_HALL", "txt": "Go Up!", "rotateX":0, "rotateY": 90, "translate":[-16,3.5,2]},
+            {"to": "D_WING_1_BATHROOMS", "txt": "Go right!", "rotateX":0, "rotateY": 90, "translate":[-16,3,2]},
+            {"to": "C_WING_1_END_HALL", "txt": "Go left!", "rotateX":0, "rotateY": -90, "translate":[13,5,0]},
+            {"to": "D_WING_1_ANNEXX", "txt": "Go to Annex!", "rotateX":0, "rotateY": 90, "translate":[-16,6,-2]}
         ]
     },
     {
-        "id": "C_WING_2_HALFWAYHALLWAY",
-        "background": "C_WING_2_HALFWAYHALLWAY.jpg",
+        "id": "C_WING_1_END_HALL",
+        "background": "C_WING_1_ENDHALL.jpg",
         "rotateX" : 0,
         "rotateY": 0,
+        "descriptions": [],
         "navigations": [
-            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]}
+            {"to": "C_WING_1_MAIN_HALL", "txt": "Go back!", "rotateX":0, "rotateY": 90, "translate":[-15,0.5,0]}
+        ]
+    },
+    {
+        "id": "C_WING_2_END_HALL",
+        "background": "C_WING_2_ENDHALL 2.jpg",
+        "rotateX" : 0,
+        "rotateY": 0,
+        "descriptions": [],
+        "navigations": [
+            {"to": "C_WING_2_MAIN_HALL", "txt": "Go back!", "rotateX":0, "rotateY": 90, "translate":[-14,0.5,0]}
+           
+        ]
+    },
+    {
+        "id": "C_WING_2_MAIN_HALL",
+        "background": "D_WING_2_CROSSROADS.jpg",
+        "rotateX" : 0,
+        "rotateY": 0,
+        "descriptions": [],
+        "navigations": [
+            {"to": "B_WING_1_MAIN_HALL", "txt": "Go up!", "rotateX":0, "rotateY": 180, "translate":[-2.5,1,16]},
+            {"to": "D_WING_3_MAIN_HALL", "txt": "Go Up!", "rotateX":0, "rotateY": 90, "translate":[-16,3.5,2]},
+            {"to": "D_WING_2_END_HALL", "txt": "Go right!", "rotateX":0, "rotateY": 90, "translate":[-16,3,2]},
+            {"to": "C_WING_1_MAIN_HALL", "txt": "Go down!", "rotateX":0, "rotateY": 180, "translate":[-0.4,4.5,16]},
+            {"to": "C_WING_2_END_HALL", "txt": "Go left!", "rotateX":0, "rotateY": -90, "translate":[13,7,0]}
         ]
     },
     {
@@ -125,10 +189,9 @@
         "background": "C_WING_3_ENDHALLWAY.jpg",
         "rotateX" : 0,
         "rotateY": 0,
+        "descriptions": [],
         "navigations": [
-            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]}
+            {"to": "C_WING_3_HALFWAYHALLWAY", "txt": "Go back!", "rotateX":0, "rotateY": 90, "translate":[-10,0,0.8]}
         ]
     },
     {
@@ -136,17 +199,31 @@
         "background": "C_WING_3_HALFWAYHALLWAY.jpg",
         "rotateX" : 0,
         "rotateY": 0,
+        "descriptions": [],
         "navigations": [
-            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]}
+            {"to": "C_WING_3_ENDHALLWAY", "txt": "Go back!", "rotateX":0, "rotateY": -90, "translate":[12,0,1]},
+            {"to": "C_WING_3_MAIN_HALL", "txt": "Go back!", "rotateX":0, "rotateY": 90, "translate":[-19,1,-1]}
         ]
     },
     {
-        "id": "D_WING_1_CROSSROADS",
-        "background": "D_WING_1_CROSSROADS.jpg",
+        "id": "C_WING_3_MAIN_HALL",
+        "background": "C_WING_3_MAIN_HALL.jpg",
         "rotateX" : 0,
         "rotateY": 0,
+        "descriptions": [],
+        "navigations": [
+            {"to": "B_WING_2_MAI_HALL", "txt": "Go Up!", "rotateX":0, "rotateY": 90, "translate":[-13,0,-5]},
+            {"to": "B_WING_1_MAIN_HALL", "txt": "Go Down!", "rotateX":0, "rotateY": 90, "translate":[-16,0,-3]},
+            {"to": "D_WING_3_MAIN_HALL", "txt": "Go Left!", "rotateX":0, "rotateY": 0, "translate":[1,3,-8]},
+            {"to": "C_WING_3_HALFWAYHALLWAY", "txt": "Go Right!", "rotateX":0, "rotateY": 180, "translate":[1,4,8]}
+        ]
+    },
+    {
+        "id": "D_WING_1_MAIN_HALL",
+        "background": "D_WING_1_CROSSROADS 2.jpg",
+        "rotateX" : 0,
+        "rotateY": 0,
+        "descriptions": [],
         "navigations": [
             {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
             {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
@@ -154,25 +231,48 @@
         ]
     },
     {
-        "id": "D_WING_1_LOCKERS",
+        "id": "D_WING_1_BATHROOMS",
         "background": "D_WING_1_LOCKERS.jpg",
         "rotateX" : 0,
         "rotateY": 0,
+        "descriptions": [],
         "navigations": [
-            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]}
+            {"to": "D_WING_1_MAIN_HALL", "txt": "Go left!", "rotateX":0, "rotateY": 0, "translate":[1,0,-8]},
+            {"to": "D_WING_1_ENDHALL", "txt": "Go Right!", "rotateX":0, "rotateY": 90, "translate":[-15,2.5,1]},
+            {"to": "C_WING_2_MAIN_HALL", "txt": "Go Up!", "rotateX":0, "rotateY": 0, "translate":[-3,3.1,-8]}
         ]
     },
     {
-        "id": "D_WING_3_ENDHALLWAY",
-        "background": "D_WING_3_ENDHALLWAY.jpg",
+        "id": "D_WING_2_END_HALL",
+        "background": "D_WING_1_END_HALL.jpg",
         "rotateX" : 0,
         "rotateY": 0,
+        "descriptions": [],
+        "navigations": [
+            {"to": "C_WING_2_MAIN_HALL", "txt": "Go back!", "rotateX":0, "rotateY": 0, "translate":[-1.3,0,-13]}
+        ]
+    },
+    {
+        "id": "D_WING_2_CROSSROADS",
+        "background": "D_WING_2_CROSSROADS.jpg",
+        "rotateX" : 0,
+        "rotateY": 0,
+        "descriptions": [],
         "navigations": [
             {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
             {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
             {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]}
+            
+        ]
+    },
+    {
+        "id": "D_WING_3_END_HALL",
+        "background": "D_WING_3_ENDHALLWAY.jpg",
+        "rotateX" : 0,
+        "rotateY": 0,
+        "descriptions": [],
+        "navigations": [
+            {"to": "D_WING_3_HALFWAYHALLWAY", "txt": "Go Back!", "rotateX":0, "rotateY": -90, "translate":[10,0,-1.4]}
         ]
     },
     {
@@ -180,21 +280,43 @@
         "background": "D_WING_3_HALFWAYHALLWAY.jpg",
         "rotateX" : 0,
         "rotateY": 0,
+        "descriptions": [],
         "navigations": [
-            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]}
+            {"to": "D_WING_3_END_HALL", "txt": "Go back!", "rotateX":0, "rotateY": 90, "translate":[-10,0,1]},
+            {"to": "D_WING_3_MAIN_HALL", "txt": "Go back!", "rotateX":0, "rotateY": -90, "translate":[10,1.5,-0.7]}
         ]
     },
     {
-        "id": "D_WING_3_STARTHALLWAY",
+        "id": "D_WING_3_MAIN_HALL",
         "background": "D_WING_3_STARTHALLWAY.jpg",
         "rotateX" : 0,
         "rotateY": 0,
+        "descriptions": [],
         "navigations": [
-            {"to": "A_WING_1_LIBRARY", "txt": "Go to the Library!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_STUDENT_SERVICES", "txt": "Go Ahead!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]},
-            {"to": "A_WING_1_FRONT_ENTRANCE", "txt": "Go Outside!", "rotateX":0, "rotateY": 0, "translate":[0,0,0]}
+            {"to": "D_WING_3_HALFWAYHALLWAY", "txt": "Go Left!", "rotateX":0, "rotateY": 90, "translate":[-10,0,1]},
+            {"to": "C_WING_3_MAIN_HALL", "txt": "Go Right!", "rotateX":0, "rotateY": 0, "translate":[1.5,2,-9]},
+            {"to": "C_WING_2_MAIN_HALL", "txt": "Go Down!", "rotateX":0, "rotateY": 40, "translate":[-8,2,-9]}
+        ]
+    },
+    {
+        "id": "D_WING_1_ANNEXX",
+        "background": "D_WING_1_ANNEXX.jpg",
+        "rotateX" : 0,
+        "rotateY": 0,
+        "descriptions": [],
+        "navigations": [
+            {"to": "C_WING_1_MAIN_HALL", "txt": "Go back!", "rotateX":0, "rotateY": -90, "translate":[9,0,0]}
+        ]
+    },
+    {
+        "id": "D_WING_1_ENDHALL",
+        "background": "D_WING_1_ENDHALL.jpg",
+        "rotateX" : 0,
+        "rotateY": 0,
+        "descriptions": [],
+        "navigations": [
+            {"to": "D_WING_1_BATHROOMS", "txt": "Go back!", "rotateX":0, "rotateY": -90, "translate":[10,0,-1]}
+           
         ]
     }
     ]   

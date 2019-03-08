@@ -12,7 +12,5 @@ RUN npm i
 COPY . .
 # BUILD APPLICATION
 RUN npm run build
-# EXPOSE PORT
-EXPOSE 3001
 # SERVE THE APPLICATION
 CMD ["npm", "run", "start"]

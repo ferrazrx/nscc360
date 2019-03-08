@@ -1,0 +1,71 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "external \"react\"": 0,
+      "external \"styled-components\"": 1,
+      "external \"prop-types\"": 2,
+      "external \"next/link\"": 3,
+      "external \"next/router\"": 4,
+      "external \"nprogress\"": 5,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!components/Navbar/style.js": 6,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!components/Navbar/index.js": 7,
+      "external \"next/document\"": 8,
+      "external \"next/head\"": 9,
+      "external \"@babel/runtime/regenerator\"": 10,
+      "external \"next/app\"": 11,
+      "multi ./pages/_app.js": 12,
+      "multi ./pages/_document.js": 13,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/_document.js": 14,
+      "multi ./pages/index.js": 15,
+      "multi ./pages/map.js": 16,
+      "multi node_modules/next/dist/pages/_error.js": 17,
+      "node_modules/next/dist/pages/_error.js": 18,
+      "external \"next/error\"": 19,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/map.js b37d0ea249f739382c4d481893fafab4": 20,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/index.js 9c51912e6957a555425212971072d67b": 21,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/_app.js 7e19643bd4c266ca249658e6f990ff53": 22
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19,
+      "20": 20,
+      "21": 21,
+      "22": 22
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/ZrxI7z7gQ1mi_btoes_r5/pages/_app.js": 0,
+      "static/ZrxI7z7gQ1mi_btoes_r5/pages/_document.js": 1,
+      "static/ZrxI7z7gQ1mi_btoes_r5/pages/index.js": 2,
+      "static/ZrxI7z7gQ1mi_btoes_r5/pages/map.js": 3,
+      "static/ZrxI7z7gQ1mi_btoes_r5/pages/_error.js": 4
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

@@ -3730,6 +3730,10 @@ export default class A2Floor extends Component {
             />
           </g>
           <circle
+          className={
+            this.props.scene.sceneID === "A_WING_2_STUDENT_SERVICE" ?
+              "current" : undefined
+            }
             cx="200"
             cy="91.1"
             r="5.1"
@@ -3738,11 +3742,13 @@ export default class A2Floor extends Component {
             strokeWidth="1.01"
             strokeMiterlimit="10"
             id="A2.Services"
+            data-scene-id="A_WING_2_STUDENT_SERVICE" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
           <circle
             className={
-              this.props.scene.sceneID === "A_WING_2_FRONT_ENTRANCE" &&
-              "current"
+              this.props.scene.sceneID === "A_WING_2_FRONT_ENTRANCE" ?
+              "current" : undefined
             }
             cx="284.1"
             cy="211.8"
@@ -3757,7 +3763,7 @@ export default class A2Floor extends Component {
           />
           <circle
             className={
-              this.props.scene.sceneID === "A_WING_2_ATRIUM" && "current"
+              this.props.scene.sceneID === "A_WING_2_ATRIUM" ? "current" : undefined
             }
             cx="194.2"
             cy="149.4"

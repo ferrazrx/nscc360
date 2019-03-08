@@ -2017,7 +2017,7 @@ export default class B1Floor extends Component {
           </g>
           <circle
             className={
-              this.props.scene.sceneID === "B_WING_1_MAIN_HALL" && "current"
+              this.props.scene.sceneID === "B_WING_1_MAIN_HALL" ? "current" : undefined
             }
             cx="192.4"
             cy="108.4"

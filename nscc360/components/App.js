@@ -1,7 +1,11 @@
 import React, { Component } from 'react'
 import { Linking } from 'react-native'
-import { View, asset, Pano } from 'react-360';
+import { View, asset, VrButton, Text } from 'react-360';
 import PropTypes from 'prop-types'
+import Pano from './Pano'
+import Buttons from './Buttons';
+import Title from './Title';
+import Descriptions from './Descriptions';
 
 export default class App extends Component {
     static propTypes = {
@@ -12,11 +16,13 @@ export default class App extends Component {
         super(props);
         this.state = {
             urlLinkId: null, 
-            tour: null
+            tour: null,
+            loading: true
         }
     }
 
     componentWillMount = async()=>{
+        
         /*-----------------------------------------------
             Get URL link after # symbol
         -----------------------------------------------*/
@@ -26,9 +32,10 @@ export default class App extends Component {
             this.setState({ urlLinkId });
         }
         const tour = await this.getTourDefinitions();
-        if( tour ){
-            this.setState({ tour })
-        }
+        this.setState({
+            tour,
+            loading: false
+        })
     }
 
      /*-----------------------------------------------
@@ -38,39 +45,54 @@ export default class App extends Component {
     getTourDefinitions = async()=>{
         const response = await fetch(asset(this.props.tour).uri);
         if(!response) throw new Error('Error: tour.json file was not found in the static folder. Please, move your json file to the proper folder.')
-        return await response.json();
+        return response.json();
+    }
+    
+    changePano = (newScene)=>{
+        this.setState({
+            urlLinkId: newScene
+        })
     }
 
-    /*-----------------------------------------------
-            Render defined first scene or first item from the array
-      -----------------------------------------------*/
-    renderPano = ()=>{
-        if(this.state.tour){
-            const { tour: { firstScene, scenes }, urlLinkId } = this.state
-            let initialScene = null
-            if(urlLinkId){
-                initialScene = scenes.find((scene)=> scene.id === urlLinkId.toUpperCase())
+    renderScene(){
+        let scene = null
+        
+        if(!this.state.loading){
+            const { firstScene, scenes } = this.state.tour
+            if(this.state.urlLinkId){
+                scene = scenes.find((scene)=> scene.id === this.state.urlLinkId.toUpperCase())
             }
             else if(firstScene){
-                initialScene = scenes.find((scene)=> scene.id === firstScene)
+                scene = scenes.find((scene)=> scene.id === firstScene)
             }else{
-                initialScene = scenes[0]
+                scene = scenes[0]
             }
-            console.log(initialScene)
-            const { rotateX, rotateY } = initialScene
-
-            let panoStyle = {transform:[{rotateX},{rotateY}]}
-            console.log(panoStyle)
-
-            return <Pano style={panoStyle} source={asset(initialScene.background)} />
         }
-    }
-
-    render() {
         return (
+            this.state.loading ?
+            <Text
+                style={{
+                    fontSize: 0.2,
+                    fontWeight: '400',
+                    textAlign: 'center',
+                    fontWeight: '900',
+                    transform: [
+                        {translate: [-0.5,0,-4]}
+                    ]
+                }}>
+                Loading...
+            </Text>
+            :
             <View>
-                {this.renderPano()}
+                <Pano scene={scene} />
+                <Title title={scene.title} />
+                <Buttons navigations={scene.navigations} changePano={this.changePano}/>
+                <Descriptions descriptions={scene.descriptions}/>
             </View>
         )
+    }
+
+    render(){
+        return this.renderScene()
     }
 }

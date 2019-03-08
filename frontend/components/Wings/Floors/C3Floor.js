@@ -3559,7 +3559,7 @@ export default class C3Floor extends Component {
           </g>
           <circle
             className={
-              this.props.scene.sceneID === "C_WING_3_MAIN_HALL" && "current"
+              this.props.scene.sceneID === "C_WING_3_MAIN_HALL" ? "current" : undefined
             }
             cx="198.4"
             cy="87.8"
