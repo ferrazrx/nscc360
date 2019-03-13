@@ -237,7 +237,7 @@
         "rotateY": 0,
         "descriptions": [],
         "navigations": [
-            {"to": "D_WING_1_MAIN_HALL", "txt": "Go left!", "rotateX":0, "rotateY": 0, "translate":[1,0,-8]},
+            {"to": "C_WING_1_MAIN_HALL", "txt": "Go left!", "rotateX":0, "rotateY": 0, "translate":[1,0,-8]},
             {"to": "D_WING_1_ENDHALL", "txt": "Go Right!", "rotateX":0, "rotateY": 90, "translate":[-15,2.5,1]},
             {"to": "C_WING_2_MAIN_HALL", "txt": "Go Up!", "rotateX":0, "rotateY": 0, "translate":[-3,3.1,-8]}
         ]
