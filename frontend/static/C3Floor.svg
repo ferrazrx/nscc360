@@ -5105,7 +5105,13 @@
 		v0.2l0,0.1v0.2l0,0v0.1l0,0v0l0,0.1v0l0,0.1v0l0,0l0,0.1v0l0,0l0,0.1l0,0l0,0.1h0.2v0l0.1-0.1l0-0.1v0l0.1-0.1l0-0.1v0l0,0l0-0.1v0
 		l0-0.1v0l0-0.1v0l0,0v-0.2l0,0v-0.6l0,0V80l0,0v-0.1l0-0.1v0l0,0v-0.1l0,0l0,0v-0.1l-0.1-0.1v0l0-0.1l-0.1-0.1L240.2,78.8"/>
 </g>
-<g id="B2.Main_Hall">
-	<circle style="&st7;" cx="192.4" cy="101.1" r="5"/>
+<g id="B2.End_Hall">
+	<circle style="&st7;" cx="375" cy="83" r="5"/>
+</g>
+<g id="B2.Half_Hall">
+	<circle style="&st7;" cx="295" cy="83" r="5"/>
+</g>
+<g id="B2.Intersection_Hall">
+	<circle style="&st7;" cx="202" cy="83" r="5"/>
 </g>
 </svg>

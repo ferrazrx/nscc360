@@ -5105,7 +5105,22 @@
 		v0.2l0,0.1v0.2l0,0v0.1l0,0v0l0,0.1v0l0,0.1v0l0,0l0,0.1v0l0,0l0,0.1l0,0l0,0.1h0.2v0l0.1-0.1l0-0.1v0l0.1-0.1l0-0.1v0l0,0l0-0.1v0
 		l0-0.1v0l0-0.1v0l0,0v-0.2l0,0v-0.6l0,0V80l0,0v-0.1l0-0.1v0l0,0v-0.1l0,0l0,0v-0.1l-0.1-0.1v0l0-0.1l-0.1-0.1L240.2,78.8"/>
 </g>
-<g id="B2.Main_Hall">
-	<circle style="&st7;" cx="192.4" cy="101.1" r="5"/>
+<g id="B2.B257">
+	<circle style="&st7;" cx="360" cy="126" r="5"/>
+</g>
+<g id="B2.Cafeteria">
+	<circle style="&st7;" cx="28" cy="82" r="5"/>
+</g>
+<g id="B2.Crossroads">
+	<circle style="&st7;" cx="198" cy="103" r="5"/>
+</g>
+<g id="B2.End_Hall">
+	<circle style="&st7;" cx="390" cy="103" r="5"/>
+</g>
+<g id="B2.Half_Hall">
+	<circle style="&st7;" cx="300" cy="103" r="5"/>
+</g>
+<g id="B2.Hall_Cafeteria">
+	<circle style="&st7;" cx="130" cy="103" r="5"/>
 </g>
 </svg>

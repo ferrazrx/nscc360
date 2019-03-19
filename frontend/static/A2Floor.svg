@@ -6024,13 +6024,25 @@
 		l-0.1-0.1h-0.1l-0.1-0.1L71,54.8h-0.1l-0.1-0.1h-0.1l-0.1-0.1h-0.2l-0.1-0.1h-0.1l-0.1-0.1h-0.1L70,54.5H70l-0.1-0.1h-0.1l-0.1-0.1
 		h-0.1l-0.1-0.1v-0.1l-0.1-0.1V54l0.2-0.2h0.1l0.1-0.1h0.2l0.1-0.1h1L71,53.5H71l-0.1-0.1l-0.1-0.1h-0.2l-0.1-0.1h-0.2"/>
 </g>
-<g id="A2.Services">
-	<circle style="&st6;" cx="200" cy="91.1" r="5.1"/>
+<g id="A2.Atrium">
+	<circle style="&st6;" cx="176.2" cy="149.4" r="5"/>
+</g>
+<g id="A2.Inside">
+	<circle style="&st6;" cx="199.2" cy="173.4" r="5"/>
+</g>
+<g id="A2.Library">
+	<circle style="&st6;" cx="251.1" cy="175.4" r="5"/>
+</g>
+<g id="A2.Lobby">
+	<circle style="&st6;" cx="225" cy="65" r="5"/>
+</g>
+<g id="A2.Offices">
+	<circle style="&st6;" cx="145" cy="76" r="5"/>
 </g>
 <g id="A2.Outside">
-	<circle style="&st6;" cx="284.1" cy="211.8" r="5.1"/>
+	<circle style="&st6;" cx="200" cy="213.8" r="5"/>
 </g>
-<g id="A2.Atrium">
-	<circle style="&st6;" cx="194.2" cy="149.4" r="5.1"/>
+<g id="A2.Services">
+	<circle style="&st6;" cx="200" cy="88" r="5"/>
 </g>
 </svg>
