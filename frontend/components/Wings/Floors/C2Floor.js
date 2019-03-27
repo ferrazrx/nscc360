@@ -2900,7 +2900,7 @@ export default class C2Floor extends Component {
           </g>
           <circle
             className={
-              this.props.scene.sceneID === "C_WING_2_MAIN_HALL" ? "current" : undefined
+              this.props.scene.sceneID === "C_WING_2_INTERSECTION" ? "current" : undefined
             }
             cx="213.3"
             cy="94.3"
@@ -2909,7 +2909,7 @@ export default class C2Floor extends Component {
             stroke="#000"
             strokeMiterlimit="10"
             id="C2.Main_Hall"
-            data-scene-id="C_WING_2_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            data-scene-id="C_WING_2_INTERSECTION" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
             onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
           <circle
@@ -2924,6 +2924,19 @@ export default class C2Floor extends Component {
             strokeMiterlimit="10"
             id="C2.End_Hall"
             data-scene-id="C_WING_2_END_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
+          />
+          <circle
+            className={
+              this.props.scene.sceneID === "C_WING_2_HALF_HALL" ? "current" : undefined
+            }
+            cx="295" cy="83"
+            r="5"
+            fill="#4068b1"
+            stroke="#000"
+            strokeMiterlimit="10"
+            id="C2.End_Hall"
+            data-scene-id="C_WING_2_HALF_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
             onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
         </svg>
