@@ -3765,8 +3765,8 @@ export default class A2Floor extends Component {
             className={
               this.props.scene.sceneID === "A_WING_2_ATRIUM" ? "current" : undefined
             }
-            cx="194.2"
-            cy="149.4"
+            cx="180"
+            cy="150"
             r="5.1"
             fill="#4068b1"
             stroke="#000"
@@ -3774,6 +3774,48 @@ export default class A2Floor extends Component {
             strokeMiterlimit="10"
             id="A2.Atrium"
             data-scene-id="A_WING_2_ATRIUM" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
+          />
+          <circle
+            className={
+              this.props.scene.sceneID === "A_WING_2_OFFICES" ? "current" : undefined
+            }
+            cx="145" cy="76"
+            r="5.1"
+            fill="#4068b1"
+            stroke="#000"
+            strokeWidth="1.01"
+            strokeMiterlimit="10"
+            id="A2.Offices"
+            data-scene-id="A_WING_2_OFFICES" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
+          />
+          <circle
+            className={
+              this.props.scene.sceneID === "A_WING_2_LOBBY" ? "current" : undefined
+            }
+            cx="225" cy="65"
+            r="5.1"
+            fill="#4068b1"
+            stroke="#000"
+            strokeWidth="1.01"
+            strokeMiterlimit="10"
+            id="A2.Offices"
+            data-scene-id="A_WING_2_LOBBY" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
+          />
+           <circle
+            className={
+              this.props.scene.sceneID === "A_WING_2_FRONT_ENTRANCE_INSIDE" ? "current" : undefined
+            }
+            cx="200" cy="173"
+            r="5.1"
+            fill="#4068b1"
+            stroke="#000"
+            strokeWidth="1.01"
+            strokeMiterlimit="10"
+            id="A2.Offices"
+            data-scene-id="A_WING_2_FRONT_ENTRANCE_INSIDE" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
             onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
         </svg>
