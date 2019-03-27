@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Logo, Nav } from "./style";
+import { Logo } from "./style";
 import Router from "next/router";
 import Nprogress from "nprogress";
 

@@ -3647,18 +3647,63 @@ export default class D3Floor extends Component {
           </g>
           <circle
             className={
-              this.props.scene.sceneID === "D_WING_3_MAIN_HALL" && "current"
+              this.props.scene.sceneID === "D_WING_3_D309" && "current"
             }
-            cx="200.5"
-            cy="84.8"
+            cx="113"
+            cy="97"
             r="4.8"
             fill="#4068b1"
             stroke="#000"
             strokeWidth=".964"
             strokeMiterlimit="10"
             id="D3.Main_Hall"
-            data-scene-id="D_WING_3_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            data-scene-id="D_WING_3_D309" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
             onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
+          />
+          <circle
+              className={
+                this.props.scene.sceneID === "D_WING_3_END_HALL" && "current"
+              }
+              cx="23"
+              cy="110"
+              r="4.8"
+              fill="#4068b1"
+              stroke="#000"
+              strokeWidth=".964"
+              strokeMiterlimit="10"
+              id="D3.Main_Hall"
+              data-scene-id="D_WING_3_END_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+              onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
+          />
+          <circle
+              className={
+                this.props.scene.sceneID === "D_WING_3_HALF_HALL" && "current"
+              }
+              cx="95"
+              cy="110"
+              r="4.8"
+              fill="#4068b1"
+              stroke="#000"
+              strokeWidth=".964"
+              strokeMiterlimit="10"
+              id="D3.Main_Hall"
+              data-scene-id="D_WING_3_HALF_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+              onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
+          />
+          <circle
+              className={
+                this.props.scene.sceneID === "D_WING_3_LOCKERS" && "current"
+              }
+              cx="178"
+              cy="111"
+              r="4.8"
+              fill="#4068b1"
+              stroke="#000"
+              strokeWidth=".964"
+              strokeMiterlimit="10"
+              id="D3.Main_Hall"
+              data-scene-id="D_WING_3_LOCKERS" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+              onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
         </svg>
       </MapContainer>

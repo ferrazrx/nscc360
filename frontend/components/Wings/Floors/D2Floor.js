@@ -2940,24 +2940,24 @@ export default class D2Floor extends Component {
           </g>
           <circle
             className={
-              this.props.scene.sceneID === "D_WING_2_210_ROOM" ? "current" : undefined
+              this.props.scene.sceneID === "D_WING_2_D210" ? "current" : undefined
             }
-            cx="111.9"
-            cy="111.1"
+            cx="118"
+            cy="122"
             r="5"
             fill="#4068b1"
             stroke="#000"
             strokeMiterlimit="10"
             id="D2.210_Room"
-            data-scene-id="D_WING_2_210_ROOM" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            data-scene-id="D_WING_2_D210" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
             onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
           <circle
             className={
               this.props.scene.sceneID === "D_WING_2_END_HALL" ? "current" : undefined
             }
-            cx="27.9"
-            cy="101.4"
+            cx="28"
+            cy="101"
             r="5"
             fill="#4068b1"
             stroke="#000"
@@ -2968,17 +2968,31 @@ export default class D2Floor extends Component {
           />
           <circle
             className={
-              this.props.scene.sceneID === "D_WING_2_MAIN_HALL" ? "current" : undefined
+              this.props.scene.sceneID === "D_WING_2_HALF_HALL" ? "current" : undefined
             }
-            cx="208.4"
-            cy="89.8"
+            cx="110"
+            cy="101"
             r="5"
             fill="#4068b1"
             stroke="#000"
             strokeMiterlimit="10"
             id="D2.Main_Hall"
-            data-scene-id="D_WING_2_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            data-scene-id="D_WING_2_HALF_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
             onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
+          />
+          <circle
+              className={
+                this.props.scene.sceneID === "D_WING_2_LOCKERS" ? "current" : undefined
+              }
+              cx="181"
+              cy="103"
+              r="5"
+              fill="#4068b1"
+              stroke="#000"
+              strokeMiterlimit="10"
+              id="D2.Main_Hall"
+              data-scene-id="D_WING_2_LOCKERS" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+              onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
         </svg>
       </MapContainer>

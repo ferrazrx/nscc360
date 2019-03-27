@@ -2305,8 +2305,8 @@ export default class C1Floor extends Component {
             className={
               this.props.scene.sceneID === "C_WING_1_END_HALL" ? "current" : undefined
             }
-            cx="376.3"
-            cy="104.7"
+            cx="376"
+            cy="105"
             r="5"
             fill="#4068b1"
             stroke="#000"
@@ -2316,18 +2316,46 @@ export default class C1Floor extends Component {
             onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
           <circle
+              className={
+                this.props.scene.sceneID === "C_WING_1_HALF_HALL" ? "current" : undefined
+              }
+              cx="295"
+              cy="105"
+              r="5"
+              fill="#4068b1"
+              stroke="#000"
+              strokeMiterlimit="10"
+              id="C1.Main_Hall"
+              data-scene-id="C_WING_1_HALF_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+              onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
+          />
+          <circle
             className={
-              this.props.scene.sceneID === "C_WING_1_MAIN_HALL" ? "current" : undefined
+              this.props.scene.sceneID === "C_WING_1_INTERSECTION" ? "current" : undefined
             }
-            cx="213.1"
-            cy="113"
+            cx="208"
+            cy="105"
             r="5"
             fill="#4068b1"
             stroke="#000"
             strokeMiterlimit="10"
             id="C1.Main_Hall"
-            data-scene-id="C_WING_1_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            data-scene-id="C_WING_1_INTERSECTION" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
             onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
+          />
+          <circle
+              className={
+                this.props.scene.sceneID === "C_WING_1_OUTSIDE" ? "current" : undefined
+              }
+              cx="208"
+              cy="41"
+              r="5"
+              fill="#4068b1"
+              stroke="#000"
+              strokeMiterlimit="10"
+              id="C1.Main_Hall"
+              data-scene-id="C_WING_1_OUTSIDE" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+              onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
         </svg>
       </MapContainer>
