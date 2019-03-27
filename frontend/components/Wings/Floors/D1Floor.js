@@ -2351,7 +2351,7 @@ export default class D1Floor extends Component {
           </g>
           <circle
             className={
-              this.props.scene.sceneID === "D_WING_1_ANNEXX" && "current"
+              this.props.scene.sceneID === "D_WING_1_ANNEXX" ? "current" : undefined
             }
             cx="59.2"
             cy="26.6"
