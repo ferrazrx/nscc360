@@ -3436,7 +3436,7 @@
 	<line style="&st1;" x1="239.8" y1="113.5" x2="239.8" y2="121.2"/>
 	<line style="&st1;" x1="239.8" y1="121.5" x2="239.8" y2="143.9"/>
 </g>
-<g id="B1.Main_Hall">
-	<circle style="&st12;" cx="192.4" cy="108.4" r="5"/>
+<g id="B1.Intersection">
+	<circle style="&st12;" cx="192" cy="108" r="5"/>
 </g>
 </svg>
