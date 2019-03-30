@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="553a8b93-89e8-4e24-872c-9e78da7198aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nscc360/static_assets/B_WING_2_HALL_CAFETERIA.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nscc360/static_assets/B_WING_2_HALL_CAFETERIA.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nscc360/static_assets/C_WING_1_HALF_HALL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nscc360/static_assets/C_WING_1_HALF_HALL.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nscc360/static_assets/C_WING_2_HALF_HALL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nscc360/static_assets/C_WING_2_HALF_HALL.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nscc360/static_assets/C_WING_3_END_HALL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nscc360/static_assets/C_WING_3_END_HALL.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nscc360/static_assets/C_WING_3_HALF_HALL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nscc360/static_assets/C_WING_3_HALF_HALL.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nscc360/static_assets/tour.json" beforeDir="false" afterPath="$PROJECT_DIR$/nscc360/static_assets/tour.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/frontend/node_modules/" />
     <ignored path="$PROJECT_DIR$/nscc360/node_modules/" />
@@ -21,7 +16,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nscc360/static_assets/tour.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="193" column="115" selection-start-line="193" selection-start-column="115" selection-end-line="193" selection-end-column="115" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -46,10 +51,11 @@
         <option value="$PROJECT_DIR$/frontend/components/Wings/Floors/B1Floor.js" />
         <option value="$PROJECT_DIR$/frontend/components/Wings/Floors/B2Floor.js" />
         <option value="$PROJECT_DIR$/frontend/components/Wings/Floors/C1Floor.js" />
+        <option value="$PROJECT_DIR$/nscc360/static_assets/tour.json" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="98" />
     <option name="y" value="47" />
     <option name="width" value="1370" />
@@ -120,20 +126,20 @@
       <updated>1553696532736</updated>
       <workItem from="1553696536503" duration="3177000" />
       <workItem from="1553884280384" duration="7212000" />
-      <workItem from="1553955355457" duration="3030000" />
+      <workItem from="1553955355457" duration="7892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13419000" />
+    <option name="totallyTimeSpent" value="18281000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1596" height="685" extended-state="7" />
+    <frame x="0" y="28" width="1596" height="685" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.26838234" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.26838234" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -266,10 +272,13 @@
     <entry file="file://$PROJECT_DIR$/frontend/static/C1Floor.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/nscc360/static_assets/C_WING_1_HALF_HALL.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/nscc360/static_assets/tour.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="100" column="47" lean-forward="true" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
+        <state relative-caret-position="217">
+          <caret line="193" column="115" selection-start-line="193" selection-start-column="115" selection-end-line="193" selection-end-column="115" />
         </state>
       </provider>
     </entry>
