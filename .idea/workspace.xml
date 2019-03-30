@@ -3,14 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="553a8b93-89e8-4e24-872c-9e78da7198aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Wings/Floors/A1Floor.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Wings/Floors/A1Floor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Wings/Floors/A2Floor.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Wings/Floors/A2Floor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Wings/Floors/B1Floor.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Wings/Floors/B1Floor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Wings/Floors/B2Floor.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Wings/Floors/B2Floor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Wings/Floors/C1Floor.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Wings/Floors/C1Floor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/static/A1Floor.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/A1Floor.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/static/A2Floor.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/A2Floor.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/static/B1Floor.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/B1Floor.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nscc360/static_assets/B_WING_2_HALL_CAFETERIA.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nscc360/static_assets/B_WING_2_HALL_CAFETERIA.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nscc360/static_assets/C_WING_1_HALF_HALL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nscc360/static_assets/C_WING_1_HALF_HALL.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nscc360/static_assets/C_WING_2_HALF_HALL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nscc360/static_assets/C_WING_2_HALF_HALL.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nscc360/static_assets/C_WING_3_END_HALL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nscc360/static_assets/C_WING_3_END_HALL.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nscc360/static_assets/C_WING_3_HALF_HALL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/nscc360/static_assets/C_WING_3_HALF_HALL.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/frontend/node_modules/" />
     <ignored path="$PROJECT_DIR$/nscc360/node_modules/" />
@@ -52,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="98" />
     <option name="y" value="47" />
     <option name="width" value="1370" />
@@ -66,7 +63,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,10 +70,22 @@
               <item name="nscc360" type="b2602c69:ProjectViewProjectNode" />
               <item name="nscc360" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="nscc360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nscc360" type="462c0819:PsiDirectoryNode" />
+              <item name="nscc360" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nscc360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nscc360" type="462c0819:PsiDirectoryNode" />
+              <item name="nscc360" type="462c0819:PsiDirectoryNode" />
+              <item name="static_assets" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -111,20 +119,21 @@
       <option name="presentableId" value="Default" />
       <updated>1553696532736</updated>
       <workItem from="1553696536503" duration="3177000" />
-      <workItem from="1553884280384" duration="6965000" />
+      <workItem from="1553884280384" duration="7212000" />
+      <workItem from="1553955355457" duration="3030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10142000" />
+    <option name="totallyTimeSpent" value="13419000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1596" height="685" extended-state="6" />
+    <frame x="0" y="28" width="1596" height="685" extended-state="7" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.26838234" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.26838234" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
