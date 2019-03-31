@@ -2948,7 +2948,7 @@ export default class D2Floor extends Component {
             fill="#4068b1"
             stroke="#000"
             strokeMiterlimit="10"
-            id="D2.210_Room"
+            id="D2.210"
             data-scene-id="D_WING_2_D210" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
             onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
@@ -2976,7 +2976,7 @@ export default class D2Floor extends Component {
             fill="#4068b1"
             stroke="#000"
             strokeMiterlimit="10"
-            id="D2.Main_Hall"
+            id="D2.Half_Hall"
             data-scene-id="D_WING_2_HALF_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
             onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
@@ -2990,7 +2990,7 @@ export default class D2Floor extends Component {
               fill="#4068b1"
               stroke="#000"
               strokeMiterlimit="10"
-              id="D2.Main_Hall"
+              id="D2.Lockers"
               data-scene-id="D_WING_2_LOCKERS" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
               onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />

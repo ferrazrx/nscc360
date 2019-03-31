@@ -3559,30 +3559,16 @@ export default class C3Floor extends Component {
           </g>
           <circle
             className={
-              this.props.scene.sceneID === "C_WING_3_INTERSECTION" ? "current" : undefined
-            }
-            cx="198.4"
-            cy="87.8"
-            r="4.8"
-            fill="#4068b1"
-            stroke="#000"
-            strokeWidth=".955"
-            strokeMiterlimit="10"
-            id="C3.Main_Hall"
-            data-scene-id="C_WING_3_INTERSECTION" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
-            onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
-          />
-          <circle
-            className={
               this.props.scene.sceneID === "C_WING_3_END_HALL" ? "current" : undefined
             }
-            cx="375" cy="83"
-            r="4.8"
+            cx="375"
+            cy="83"
+            r="5"
             fill="#4068b1"
             stroke="#000"
             strokeWidth=".955"
             strokeMiterlimit="10"
-            id="C3.Main_Hall"
+            id="C3.End_Hall"
             data-scene-id="C_WING_3_END_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
             onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
@@ -3590,15 +3576,31 @@ export default class C3Floor extends Component {
             className={
               this.props.scene.sceneID === "C_WING_3_HALF_HALL" ? "current" : undefined
             }
-            cx="295" cy="83"
-            r="4.8"
+            cx="295"
+            cy="83"
+            r="5"
             fill="#4068b1"
             stroke="#000"
             strokeWidth=".955"
             strokeMiterlimit="10"
-            id="C3.Main_Hall"
+            id="C3.Half_Hall"
             data-scene-id="C_WING_3_HALF_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
             onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
+          />
+          <circle
+              className={
+                this.props.scene.sceneID === "C_WING_3_INTERSECTION" ? "current" : undefined
+              }
+              cx="202"
+              cy="83"
+              r="5"
+              fill="#4068b1"
+              stroke="#000"
+              strokeWidth=".955"
+              strokeMiterlimit="10"
+              id="C3.Intersection"
+              data-scene-id="C_WING_3_INTERSECTION" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+              onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
         </svg>
       </MapContainer>

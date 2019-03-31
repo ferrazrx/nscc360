@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="553a8b93-89e8-4e24-872c-9e78da7198aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/nscc360/static_assets/tour.json" beforeDir="false" afterPath="$PROJECT_DIR$/nscc360/static_assets/tour.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Wings/Floors/C2Floor.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Wings/Floors/C2Floor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Wings/Floors/C3Floor.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Wings/Floors/C3Floor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Wings/Floors/D1Floor.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Wings/Floors/D1Floor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Wings/Floors/D2Floor.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Wings/Floors/D2Floor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Wings/Floors/D3Floor.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Wings/Floors/D3Floor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/D3Floor.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/D3Floor.svg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/frontend/node_modules/" />
     <ignored path="$PROJECT_DIR$/nscc360/node_modules/" />
@@ -16,17 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nscc360/static_assets/tour.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="193" column="115" selection-start-line="193" selection-start-column="115" selection-end-line="193" selection-end-column="115" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -41,8 +39,6 @@
       <list>
         <option value="$PROJECT_DIR$/frontend/components/Navbar/style.js" />
         <option value="$PROJECT_DIR$/frontend/components/Navbar/index.js" />
-        <option value="$PROJECT_DIR$/frontend/components/Wings/Floors/D3Floor.js" />
-        <option value="$PROJECT_DIR$/frontend/components/Wings/Floors/D2Floor.js" />
         <option value="$PROJECT_DIR$/frontend/static/A1Floor.svg" />
         <option value="$PROJECT_DIR$/frontend/components/Wings/Floors/A1Floor.js" />
         <option value="$PROJECT_DIR$/frontend/static/A2Floor.svg" />
@@ -52,10 +48,19 @@
         <option value="$PROJECT_DIR$/frontend/components/Wings/Floors/B2Floor.js" />
         <option value="$PROJECT_DIR$/frontend/components/Wings/Floors/C1Floor.js" />
         <option value="$PROJECT_DIR$/nscc360/static_assets/tour.json" />
+        <option value="$PROJECT_DIR$/frontend/components/Wings/Floors/C2Floor.js" />
+        <option value="$PROJECT_DIR$/frontend/components/Wings/Floors/C3Floor.js" />
+        <option value="$PROJECT_DIR$/frontend/components/Wings/Floors/D1Floor.js" />
+        <option value="$PROJECT_DIR$/frontend/components/Wings/Floors/D2Floor.js" />
+        <option value="$PROJECT_DIR$/frontend/static/D3Floor.svg" />
+        <option value="$PROJECT_DIR$/frontend/components/Wings/Floors/D3Floor.js" />
+        <option value="$PROJECT_DIR$/frontend/.gitignore" />
+        <option value="$PROJECT_DIR$/nscc360/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="98" />
     <option name="y" value="47" />
     <option name="width" value="1370" />
@@ -81,12 +86,6 @@
               <item name="nscc360" type="462c0819:PsiDirectoryNode" />
               <item name="nscc360" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="nscc360" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nscc360" type="462c0819:PsiDirectoryNode" />
-              <item name="nscc360" type="462c0819:PsiDirectoryNode" />
-              <item name="static_assets" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -101,6 +100,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v10.0.0/lib/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nscc360/static_assets" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -126,20 +131,23 @@
       <updated>1553696532736</updated>
       <workItem from="1553696536503" duration="3177000" />
       <workItem from="1553884280384" duration="7212000" />
-      <workItem from="1553955355457" duration="7892000" />
+      <workItem from="1553955355457" duration="8101000" />
+      <workItem from="1554059080468" duration="6391000" />
+      <workItem from="1554070035602" duration="8000" />
+      <workItem from="1554072590045" duration="422000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18281000" />
+    <option name="totallyTimeSpent" value="25311000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1596" height="685" extended-state="6" />
+    <frame x="0" y="28" width="1918" height="869" extended-state="7" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24973601" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.26838234" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.41346154" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -180,34 +188,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/static/C2Floor.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/Wings/Floors/D1Floor.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/Wings/Awing.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/static/D3Floor.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/static/D2Floor.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/Wings/Floors/D3Floor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="3659" column="40" selection-start-line="3659" selection-start-column="40" selection-end-line="3659" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/Wings/Floors/D2Floor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="2951" column="37" selection-start-line="2951" selection-start-column="37" selection-end-line="2951" selection-end-column="37" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nscc360/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
@@ -275,10 +257,84 @@
     <entry file="file://$PROJECT_DIR$/nscc360/static_assets/C_WING_1_HALF_HALL.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/static/C2Floor.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Wings/Floors/C2Floor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="2912" column="103" lean-forward="true" selection-start-line="2912" selection-start-column="103" selection-end-line="2912" selection-end-column="103" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/static/C3Floor.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Wings/Floors/C3Floor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="3600" column="34" selection-start-line="3600" selection-start-column="34" selection-end-line="3600" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/static/D1Floor.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/static/D2Floor.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Wings/Floors/D3Floor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3664" column="88" lean-forward="true" selection-start-line="3664" selection-start-column="88" selection-end-line="3664" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nscc360/static_assets/tour.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="193" column="115" selection-start-line="193" selection-start-column="115" selection-end-line="193" selection-end-column="115" />
+        <state relative-caret-position="22">
+          <caret line="195" column="10" selection-start-line="195" selection-start-column="10" selection-end-line="195" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/static/D3Floor.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Wings/Floors/D2Floor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="2970" column="63" selection-start-line="2970" selection-start-column="63" selection-end-line="2970" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nscc360/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Wings/Floors/D1Floor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="2399" column="17" lean-forward="true" selection-start-line="2399" selection-start-column="17" selection-end-line="2399" selection-end-column="17" />
         </state>
       </provider>
     </entry>

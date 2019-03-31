@@ -1,4 +1,3 @@
 frontend/node_modules
 nscc360/node_modules
-./idea/
-
+.idea

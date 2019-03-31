@@ -2900,24 +2900,10 @@ export default class C2Floor extends Component {
           </g>
           <circle
             className={
-              this.props.scene.sceneID === "C_WING_2_INTERSECTION" ? "current" : undefined
-            }
-            cx="213.3"
-            cy="94.3"
-            r="5"
-            fill="#4068b1"
-            stroke="#000"
-            strokeMiterlimit="10"
-            id="C2.Main_Hall"
-            data-scene-id="C_WING_2_INTERSECTION" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
-            onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
-          />
-          <circle
-            className={
               this.props.scene.sceneID === "C_WING_2_END_HALL" ? "current" : undefined
             }
-            cx="376.4"
-            cy="82.7"
+            cx="376"
+            cy="83"
             r="5"
             fill="#4068b1"
             stroke="#000"
@@ -2930,14 +2916,29 @@ export default class C2Floor extends Component {
             className={
               this.props.scene.sceneID === "C_WING_2_HALF_HALL" ? "current" : undefined
             }
-            cx="295" cy="83"
+            cx="295"
+            cy="83"
             r="5"
             fill="#4068b1"
             stroke="#000"
             strokeMiterlimit="10"
-            id="C2.End_Hall"
+            id="C2.Half_Hall"
             data-scene-id="C_WING_2_HALF_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
             onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
+          />
+          <circle
+              className={
+                this.props.scene.sceneID === "C_WING_2_INTERSECTION" ? "current" : undefined
+              }
+              cx="210"
+              cy="83"
+              r="5"
+              fill="#4068b1"
+              stroke="#000"
+              strokeMiterlimit="10"
+              id="C2.Intersection"
+              data-scene-id="C_WING_2_INTERSECTION" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+              onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
         </svg>
       </MapContainer>

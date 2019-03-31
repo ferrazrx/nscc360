@@ -5317,15 +5317,15 @@
 	<line style="&st2;" x1="138.6" y1="117.6" x2="138.8" y2="117.6"/>
 </g>
 <g id="D3.D309">
-	<circle style="&st5;" cx="113" cy="97" r="4.8"/>
+	<circle style="&st5;" cx="113" cy="97" r="5"/>
 </g>
 <g id="D3.End_Hall">
-	<circle style="&st5;" cx="23" cy="110" r="4.8"/>
+	<circle style="&st5;" cx="23" cy="110" r="5"/>
 </g>
 <g id="D3.Half_Hall">
-	<circle style="&st5;" cx="95" cy="110" r="4.8"/>
+	<circle style="&st5;" cx="95" cy="110" r="5"/>
 </g>
 <g id="D3.Lockers">
-	<circle style="&st5;" cx="178" cy="111" r="4.8"/>
+	<circle style="&st5;" cx="178" cy="111" r="5"/>
 </g>
 </svg>
