@@ -4152,9 +4152,15 @@
 		l-0.1-0.1h-0.1l-0.1-0.1v-0.1h-0.1c-0.4-0.2-0.1-0.1-0.5-0.1h-0.1"/>
 </g>
 <g id="C1.End_Hall">
-	<circle style="&st3;" cx="376.3" cy="104.7" r="5"/>
+	<circle style="&st3;" cx="376" cy="105" r="5"/>
 </g>
-<g id="C1.Main_Hall">
-	<circle style="&st3;" cx="213.1" cy="113" r="5"/>
+<g id="C1.Half_Hall">
+	<circle style="&st3;" cx="295" cy="105" r="5"/>
+</g>
+<g id="C1.Intersection">
+	<circle style="&st3;" cx="208" cy="105" r="5"/>
+</g>
+<g id="C1.Outside">
+	<circle style="&st3;" cx="208" cy="41" r="5"/>
 </g>
 </svg>

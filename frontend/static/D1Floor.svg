@@ -4160,16 +4160,16 @@
 	<path style="&st2;" d="M37.5,103.2h-1.1v2.9h0.4v-1.1h0.7l0.1-0.1H38l0.1-0.1h0.1l0.1-0.1h0.1l0.1-0.1l-1.6-0.1v-1h0.7l0.9-0.1
 		l-0.1-0.1h-0.1l-0.1-0.1v-0.1h-0.1c-0.4-0.2-0.1-0.1-0.5-0.1h-0.1"/>
 </g>
-<g id="D1.Machine_Shop">
-	<circle style="&st3;" cx="59.2" cy="26.6" r="5"/>
-</g>
-<g id="D1.Main_Hall">
-	<circle style="&st3;" cx="213.7" cy="112" r="5"/>
+<g id="D1.Annex">
+	<circle style="&st3;" cx="90" cy="27" r="5"/>
 </g>
 <g id="D1.End_Hall">
-	<circle style="&st3;" cx="69.1" cy="125.1" r="5"/>
+	<circle style="&st3;" cx="132" cy="125" r="5"/>
 </g>
-<g id="D1.Bathrooms">
-	<circle style="&st3;" cx="179.3" cy="139" r="5"/>
+<g id="D1.Hall_Annex">
+	<circle style="&st3;" cx="161" cy="103" r="5"/>
+</g>
+<g id="D1.Lockers">
+	<circle style="&st3;" cx="183" cy="125" r="5"/>
 </g>
 </svg>

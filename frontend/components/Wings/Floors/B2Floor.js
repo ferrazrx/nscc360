@@ -3324,32 +3324,88 @@ export default class B2Floor extends Component {
           />
         </g>
         <circle
+            className={
+              this.props.scene.sceneID === "B_WING_2_B257" ? "current": undefined
+            }
+            cx="360"
+            cy="126"
+            r="5"
+            fill="#4068b1"
+            stroke="#000"
+            strokeMiterlimit="10"
+            id="B2.B257"
+            data-scene-id="B_WING_2_B257" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
+        />
+        <circle
           className={
-            this.props.scene.sceneID === "B_WING_2_MAIN_HALL" ? "current": undefined
+            this.props.scene.sceneID === "B_WING_2_CROSSROADS" ? "current": undefined
           }
-          cx="192.4"
-          cy="101.1"
+          cx="198"
+          cy="103"
           r="5"
           fill="#4068b1"
           stroke="#000"
           strokeMiterlimit="10"
-          id="B2.Main_Hall"
-          data-scene-id="B_WING_2_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+          id="B2.Crossroads"
+          data-scene-id="B_WING_2_CROSSROADS" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
           onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
         />
         <circle
           className={
             this.props.scene.sceneID === "B_WING_2_CAFETERIA" ? "current": undefined
           }
-          cx="50"
-          cy="80"
+          cx="28"
+          cy="82"
           r="5"
           fill="#4068b1"
           stroke="#000"
           strokeMiterlimit="10"
-          id="B2.Main_Hall"
+          id="B2.Cafeteria"
           data-scene-id="B_WING_2_CAFETERIA" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
           onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
+        />
+        <circle
+            className={
+              this.props.scene.sceneID === "B_WING_2_END_HALL" ? "current": undefined
+            }
+            cx="390"
+            cy="103"
+            r="5"
+            fill="#4068b1"
+            stroke="#000"
+            strokeMiterlimit="10"
+            id="B2.End_Hall"
+            data-scene-id="B_WING_2_END_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
+        />
+        <circle
+            className={
+              this.props.scene.sceneID === "B_WING_2_HALF_HALL" ? "current": undefined
+            }
+            cx="300"
+            cy="103"
+            r="5"
+            fill="#4068b1"
+            stroke="#000"
+            strokeMiterlimit="10"
+            id="B2.Half_Hall"
+            data-scene-id="B_WING_2_HALF_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
+        />
+        <circle
+            className={
+              this.props.scene.sceneID === "B_WING_2_HALL_CAFETERIA" ? "current": undefined
+            }
+            cx="130"
+            cy="103"
+            r="5"
+            fill="#4068b1"
+            stroke="#000"
+            strokeMiterlimit="10"
+            id="B2.Hall_Cafeteria"
+            data-scene-id="B_WING_2_HALL_CAFETERIA" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
         />
       </svg>
       </MapContainer>
