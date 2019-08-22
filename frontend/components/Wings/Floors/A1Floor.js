@@ -1482,17 +1482,17 @@ export default class A1Floor extends Component {
           </g>
           <circle
             className={
-              this.props.scene.sceneID === "A_WING_1_MAIN_HALL" ? "current" : undefined
+              this.props.scene.sceneID === "A_WING_1_INTERSECTION" ? "current" : undefined
             }
-            cx="205.3"
-            cy="108.6"
-            r="5.4"
+            cx="205"
+            cy="108"
+            r="5"
             fill="#4068b1"
             stroke="#000"
             strokeWidth="1.076"
             strokeMiterlimit="10"
             id="A1.Main_Hall"
-            data-scene-id="A_WING_1_MAIN_HALL" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
+            data-scene-id="A_WING_1_INTERSECTION" // Format: <Floor Letter>_WING_<Floor Number>_<Location>
             onClick={this.props.handleClickScene} // function handleClickScene created at Map Container
           />
         </svg>

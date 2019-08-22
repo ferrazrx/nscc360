@@ -12,4 +12,4 @@ const Container = styled.div`
   z-index: 1;
 `;
 
-export { Logo, Nav, Container };
+export { Logo, Container };

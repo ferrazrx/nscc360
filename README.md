@@ -20,4 +20,3 @@ After you clone the repository, make sure to run the commands below:
 <li>A framework that uses REACT 360 frameworks. This app is responsible for rendering the equirectangular photos of the campus. This application communicates with the home page frontend though an iframe. This application is served though a NGINX server.</li>
 <li>A NGINX server that works as a router to the frontend and the REACT 360 application.</li>
 <p>Each application is served through a docker container. The image below illustrates the flow of communication between the containers: 
-

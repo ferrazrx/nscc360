@@ -5316,7 +5316,16 @@
 	<polyline style="&st2;" points="138.8,114.8 138.8,114.3 139,114.3 	"/>
 	<line style="&st2;" x1="138.6" y1="117.6" x2="138.8" y2="117.6"/>
 </g>
-<g id="D3.Main_Hall">
-	<circle style="&st5;" cx="200.5" cy="84.8" r="4.8"/>
+<g id="D3.D309">
+	<circle style="&st5;" cx="113" cy="97" r="5"/>
+</g>
+<g id="D3.End_Hall">
+	<circle style="&st5;" cx="23" cy="110" r="5"/>
+</g>
+<g id="D3.Half_Hall">
+	<circle style="&st5;" cx="95" cy="110" r="5"/>
+</g>
+<g id="D3.Lockers">
+	<circle style="&st5;" cx="178" cy="111" r="5"/>
 </g>
 </svg>
